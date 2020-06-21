@@ -1,4 +1,4 @@
-package com.yaof.controller;
+package com.yaof;
 
 /**
  * Hello world!
