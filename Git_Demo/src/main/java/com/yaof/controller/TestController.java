@@ -5,7 +5,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller("/test")
+@Controller
+@RequestMapping("/test")
 public class TestController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(TestController.class);
@@ -15,7 +16,7 @@ public class TestController {
 		
 	}
 
-	@RequestMapping(value="/test")
+	@RequestMapping("/test")
 	public String test(String param) {
 		logger.info("invoke method test, the url is: /test/test");
 		
