@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(TestController.class);
+	
+	public TestController(){
+		System.out.println("11111111111111");
+		
+	}
 
 	@RequestMapping(value="/test")
 	public String test(String param) {
