@@ -23,6 +23,9 @@ public class TestController {
 	
 	@Value("${lockString}")
 	private String lockString;	//配置properties属性值注入
+	
+	@Autowired
+	private DataSource dataSource;
 
 	@RequestMapping("/test")
 	@ResponseBody
