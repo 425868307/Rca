@@ -12,7 +12,6 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.mysql.jdbc.util.Base64Decoder;
 
 public class Test01 {
 
@@ -27,8 +26,6 @@ public class Test01 {
 		byte[] encodeAa = encoder.encode(aa.getBytes());
 		System.out.println("jdk decode:" + new String(encodeAa));
 		
-		byte[] decode = Base64Decoder.decode(aa.getBytes(), 0, aa.getBytes().length);
-		System.out.println("netty decode:" + new String(decode));
 		
 		InputStream is = new FileInputStream("C:\\Users\\42586\\Desktop\\新建 Microsoft Excel 工作表.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(is);
