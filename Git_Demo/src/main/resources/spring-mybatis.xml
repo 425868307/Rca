@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p" 
+  xmlns:context="http://www.springframework.org/schema/context" 
+  xmlns:mvc="http://www.springframework.org/schema/mvc" 
+  xmlns:cache="http://www.springframework.org/schema/cache"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans  
+            http://www.springframework.org/schema/beans/spring-beans-4.2.xsd  
+            http://www.springframework.org/schema/context  
+            http://www.springframework.org/schema/context/spring-context-4.2.xsd  
+            http://www.springframework.org/schema/mvc  
+            http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+            http://www.springframework.org/schema/cache 
+            http://www.springframework.org/schema/cache/spring-cache-4.2.xsd">
+
+	<context:property-placeholder location="classpath:jdbc.properties" />
+	
+	<bean id = "user" class="com.yaof.pojo.User">
+		<property name="id" value="${user.id}"></property>
+		<property name="name" value="${user.name}"></property>
+		<property name="address" value="${user.address}"></property>
+	</bean>
+	
+	
+   <!-- redis 相关配置 设置redis作为缓存容器，实现spring注解进行数据缓存 --> 
+   <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig"> 
+     <property name="maxIdle" value="2" />  
+     <property name="maxWaitMillis" value="600000" /> 
+     <property name="testOnBorrow" value="false" /> 
+   </bean> 
+  
+   <bean id="JedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" 
+    p:host-name="127.0.0.1" p:port="6379" p:pool-config-ref="poolConfig"/> 
+   
+   <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate"> 
+     <property name="connectionFactory" ref="JedisConnectionFactory" /> 
+   </bean> 
+    
+   <!-- spring自己的缓存管理器，这里定义了缓存位置名称 ，即注解中的value --> 
+   <bean id="cacheManager" class="org.springframework.cache.support.SimpleCacheManager"> 
+     <property name="caches"> 
+      <set> 
+        <!-- 这里可以配置多个redis -->
+        <bean class="com.yaof.util.RedisCache"> 
+           <property name="redisTemplate" ref="redisTemplate" /> 
+           <property name="name" value="default"/> 
+        </bean> 
+        <bean class="com.yaof.util.RedisCache"> 
+           <property name="redisTemplate" ref="redisTemplate" /> 
+           <property name="name" value="common"/> 
+           <!-- common名称要在类或方法的注解中使用 -->
+        </bean>
+      </set> 
+     </property> 
+   </bean> 
+</beans>

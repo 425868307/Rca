@@ -8,6 +8,8 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class Test01 {
 	
@@ -16,6 +18,13 @@ public class Test01 {
 	}
 
 	public static void main(String[] args) throws IOException {
+		
+		
+		Supplier<String> i = () -> "Car";
+	       Consumer<String> c = x -> System.out.print(x.toLowerCase());
+	       Consumer<String> d = x -> System.out.print(x.toUpperCase());
+	       c.andThen(d).accept(i.get());
+	       System.out.println();
 
 		Selector selector = Selector.open();
 	    ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();

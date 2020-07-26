@@ -5,6 +5,9 @@ import java.util.concurrent.Executors;
 
 public class Test03 {
 	
+	static{
+		System.out.println("static 11111");
+	}
 	{
 		System.out.println("11111");
 	}
@@ -14,7 +17,7 @@ public class Test03 {
 	}
 
 	public static void main(String[] args) {
-
+		
 		ExecutorService pool = Executors.newFixedThreadPool(10);
 		try {
 			Class.forName("com.yaof.test.Test03");

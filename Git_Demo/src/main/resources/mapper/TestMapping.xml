@@ -5,4 +5,39 @@
 	<select id="getCount" resultType="java.lang.Integer">
 		select count(1) from student
 	</select>
+	
+	<select id="getAllStudent" resultType="com.yaof.pojo.Student">
+		select id, stu_number as stuNumber,
+		stu_name AS stuName,
+		stu_grade AS stuGrade,
+		stu_age AS stuAge,
+		stu_sex AS stuSex,
+		stu_place AS stuPlace,
+		create_user AS createUser
+		 from student
+	</select>
+	
+	<insert id="insertStudent" parameterType = "com.yaof.pojo.Student">
+		insert into student
+		<trim prefix="(" suffix=") values" suffixOverrides="," >
+			stu_number,
+			stu_name,
+			stu_grade,
+			stu_age,
+			stu_sex,
+			stu_place,
+			create_user,
+			create_time,
+		</trim>
+		<trim prefix="(" suffix=")" suffixOverrides="," >
+			#{stuNumber},
+			#{stuName},
+			#{stuGrade},
+			#{stuAge},
+			#{stuSex},
+			#{stuPlace},
+			#{createUser},
+			now(),
+		</trim>
+	</insert>
 </mapper>

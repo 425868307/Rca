@@ -10,10 +10,11 @@ package com.yaof.io;
  * @version: 1.0
  * @Create at: 2019年5月25日 下午11:36:37
  */
-public class User {
+public class User  {
 	private int age;
 	private int id;
 	private String name;
+	
 	public int getAge() {
 		return age;
 	}

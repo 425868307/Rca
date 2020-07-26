@@ -27,7 +27,7 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginInterceptor())//添加拦截器
                 .addPathPatterns("/**") //拦截所有请求
-                .excludePathPatterns("/UserCon/**", "/Doctor/**", "/SMS/**");//对应的不拦截的请求
+                .excludePathPatterns("/test/test", "/Doctor/**", "/SMS/**");//对应的不拦截的请求
     }
     
     public class LoginInterceptor implements HandlerInterceptor {
