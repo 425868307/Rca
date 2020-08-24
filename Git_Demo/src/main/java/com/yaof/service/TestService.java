@@ -10,5 +10,5 @@ public interface TestService {
 	
 	public List<Object> getAllStudent();
 	
-	public void insertStudent(Student student);
+	public void insertStudent(Student student) throws Exception;
 }

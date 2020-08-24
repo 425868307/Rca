@@ -52,8 +52,8 @@ public class JedisUtil {
 
 	public static void main(String[] args) {
 		Jedis jedis = new Jedis("localhost", 6379); // 连接Redis
+		System.out.println(jedis.set("yaof_lock", "192.168.1.1_2345_21ee32e", "nx", "ex", 30));
 		System.out.println(jedis.get("SimpleKey []"));
-		
         int i = 0;
         try {
             long start = System.currentTimeMillis(); // 开始毫秒数
