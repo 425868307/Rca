@@ -1,0 +1,449 @@
+2020-07-30 17:23:43,988 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:48) INFO  --> Starting RecordClearAideApplication on yaofang with PID 3820 (E:\workspace_winning\RecordClearAide\target\classes started by Administrator in E:\workspace_winning\RecordClearAide)
+2020-07-30 17:23:43,997 com.yaof.RecordClearAideApplication [main] (SpringApplication.java:593) INFO  --> No active profile set, falling back to default profiles: default
+2020-07-30 17:23:44,080 org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] (AbstractApplicationContext.java:583) INFO  --> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@759d26fb: startup date [Thu Jul 30 17:23:44 CST 2020]; root of context hierarchy
+2020-07-30 17:23:44,945 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:30) INFO  --> HV000001: Hibernate Validator 5.3.6.Final
+2020-07-30 17:23:45,696 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] (XmlBeanDefinitionReader.java:317) INFO  --> Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2020-07-30 17:23:46,171 org.mybatis.spring.mapper.ClassPathMapperScanner [main] (ClassPathMapperScanner.java:166) WARN  --> No MyBatis mapper was found in '[com.yaof]' package. Please check your configuration.
+2020-07-30 17:23:46,721 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#39c385d6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:23:46,860 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:23:46,866 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#23b8d9f3' of type [org.springframework.aop.aspectj.AspectJAfterAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:23:46,868 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:23:46,913 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fc8cb53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:23:48,133 org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] (TomcatEmbeddedServletContainer.java:92) INFO  --> Tomcat initialized with port(s): 8088 (http)
+2020-07-30 17:23:48,568 org.springframework.web.context.ContextLoader [localhost-startStop-1] (EmbeddedWebApplicationContext.java:276) INFO  --> Root WebApplicationContext: initialization completed in 4491 ms
+2020-07-30 17:23:49,070 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-30 17:23:49,071 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-30 17:23:49,072 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-30 17:23:49,073 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-30 17:23:49,073 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'sessionFilter' to urls: [/*]
+2020-07-30 17:23:49,074 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-07-30 17:23:49,074 org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'dispatcherServlet' to [/]
+2020-07-30 17:23:49,076 org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-07-30 17:23:49,315 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-1} inited
+2020-07-30 17:23:49,663 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-2} inited
+2020-07-30 17:23:50,010 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:33) INFO  --> test:------初始化测试。。。。
+2020-07-30 17:23:50,698 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/saveDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.saveDayDetailById(com.yaof.pojo.AmmountSum)
+2020-07-30 17:23:50,699 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/deleteDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.deleteDayDetailById(com.yaof.pojo.AmmountSum)
+2020-07-30 17:23:50,700 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryAccountDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,701 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/addAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.addAccountDetail(java.util.List<com.yaof.pojo.AmmountSum>,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,701 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryDayDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryDayDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,703 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/index]}" onto public java.lang.String com.yaof.controller.GameRoleController.index()
+2020-07-30 17:23:50,705 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertBatchRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertBatchRoleInfo()
+2020-07-30 17:23:50,707 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertRoleInfo(com.yaof.pojo.GameRole,javax.servlet.http.HttpServletRequest)
+2020-07-30 17:23:50,709 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/selectNumber],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.selectNumber()
+2020-07-30 17:23:50,714 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/register],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.register(com.yaof.pojo.User)
+2020-07-30 17:23:50,716 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getUserInfo],methods=[POST]}" onto public java.lang.String com.yaof.controller.UserController.getUserInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-07-30 17:23:50,717 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/queryAccountByPower],methods=[POST]}" onto private com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.User>> com.yaof.controller.UserController.queryAccountByPower(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,718 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/deleteAccountById],methods=[POST]}" onto private com.yaof.pojo.utils.Response com.yaof.controller.UserController.deleteAccountById(java.lang.String)
+2020-07-30 17:23:50,719 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePasswordByAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePasswordByAccount(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,720 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getAccount],methods=[POST]}" onto private java.lang.String com.yaof.controller.UserController.getAccount(javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,721 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/login],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.login(com.yaof.pojo.User,javax.servlet.http.HttpServletRequest)
+2020-07-30 17:23:50,722 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/saveUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.saveUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,724 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/logout],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(javax.servlet.http.HttpServletRequest)
+2020-07-30 17:23:50,725 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/checkAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(java.lang.String)
+2020-07-30 17:23:50,725 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/addRcaUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.addRcaUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,726 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePassword],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePassword(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpSession)
+2020-07-30 17:23:50,731 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-07-30 17:23:50,733 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-07-30 17:23:50,735 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-07-30 17:23:50,738 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-30 17:23:50,739 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-30 17:23:51,031 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-30 17:23:51,071 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:165) INFO  --> Initializing ExecutorService  'executor'
+2020-07-30 17:23:51,201 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1172) INFO  --> Using default implementation for ThreadExecutor
+2020-07-30 17:23:51,222 org.quartz.core.SchedulerSignalerImpl [main] (SchedulerSignalerImpl.java:61) INFO  --> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-30 17:23:51,224 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:240) INFO  --> Quartz Scheduler v.2.2.3 created.
+2020-07-30 17:23:51,226 org.quartz.simpl.RAMJobStore [main] (RAMJobStore.java:155) INFO  --> RAMJobStore initialized.
+2020-07-30 17:23:51,228 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:305) INFO  --> Scheduler meta-data: Quartz Scheduler (v2.2.3) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-30 17:23:51,230 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1327) INFO  --> Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2020-07-30 17:23:51,230 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1331) INFO  --> Quartz scheduler version: 2.2.3
+2020-07-30 17:23:51,232 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:2311) INFO  --> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5939e24
+2020-07-30 17:23:51,611 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] (RequestMappingHandlerAdapter.java:534) INFO  --> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@759d26fb: startup date [Thu Jul 30 17:23:44 CST 2020]; root of context hierarchy
+2020-07-30 17:23:51,708 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-30 17:23:51,708 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-30 17:23:51,776 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-30 17:23:53,242 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:431) INFO  --> Registering beans for JMX exposure on startup
+2020-07-30 17:23:53,244 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2020-07-30 17:23:53,244 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2020-07-30 17:23:53,245 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-07-30 17:23:53,252 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2020-07-30 17:23:53,254 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2020-07-30 17:23:53,256 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-07-30 17:23:53,260 org.springframework.context.support.DefaultLifecycleProcessor [main] (DefaultLifecycleProcessor.java:341) INFO  --> Starting beans in phase 2147483647
+2020-07-30 17:23:53,260 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2020-07-30 17:23:53,309 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2020-07-30 17:23:53,374 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2020-07-30 17:23:53,785 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] (CachingOperationNameGenerator.java:40) INFO  --> Generating unique operation named: checkAccountUsingPOST_1
+2020-07-30 17:23:53,891 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] (SchedulerFactoryBean.java:671) INFO  --> Starting Quartz Scheduler now
+2020-07-30 17:23:53,893 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:575) INFO  --> Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2020-07-30 17:23:53,993 org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] (TomcatEmbeddedServletContainer.java:216) INFO  --> Tomcat started on port(s): 8088 (http)
+2020-07-30 17:23:54,003 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:57) INFO  --> Started RecordClearAideApplication in 10.378 seconds (JVM running for 11.171)
+2020-07-30 17:23:54,004 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:23) INFO  --> RecordClearAideApplication start success.
+2020-07-30 17:24:01,516 org.springframework.web.servlet.DispatcherServlet [http-nio-8088-exec-1] (FrameworkServlet.java:489) INFO  --> FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-30 17:24:01,559 org.springframework.web.servlet.DispatcherServlet [http-nio-8088-exec-1] (FrameworkServlet.java:508) INFO  --> FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+2020-07-30 17:24:03,900 com.yaof.controller.UserController [http-nio-8088-exec-4] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-07-30 17:24:03,901 com.yaof.controller.UserController [http-nio-8088-exec-4] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-07-30 17:24:04,906 com.yaof.point.TransactionDemo [http-nio-8088-exec-4] (TransactionDemo.java:22) INFO  --> now the url is:/rca/login
+2020-07-30 17:24:04,906 com.yaof.point.TransactionDemo [http-nio-8088-exec-4] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:24:04,963 com.yaof.point.TransactionDemo [http-nio-8088-exec-4] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:24:15,248 com.yaof.interceptor.WebAppConfig [http-nio-8088-exec-1] (WebAppConfig.java:52) INFO  --> ============================================
+2020-07-30 17:24:15,248 com.yaof.interceptor.WebAppConfig [http-nio-8088-exec-1] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-07-30 17:24:16,334 com.yaof.point.TransactionDemo [http-nio-8088-exec-1] (TransactionDemo.java:22) INFO  --> now the url is:/rca/insertRoleInfo
+2020-07-30 17:24:16,335 com.yaof.point.TransactionDemo [http-nio-8088-exec-1] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:24:16,538 com.yaof.point.TransactionDemo [http-nio-8088-exec-1] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:24:16,538 com.yaof.point.TransactionDemo [http-nio-8088-exec-1] (TransactionDemo.java:22) INFO  --> now the url is:/rca/insertRoleInfo
+2020-07-30 17:24:16,538 com.yaof.point.TransactionDemo [http-nio-8088-exec-1] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:24:16,547 com.yaof.point.TransactionDemo [http-nio-8088-exec-1] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:24:16,584 com.yaof.controller.GameRoleController [http-nio-8088-exec-1] (GameRoleController.java:42) ERROR --> 
+java.lang.NullPointerException
+	at com.yaof.service.impl.GameRoleServiceImpl.insertRoleInfo001(GameRoleServiceImpl.java:50)
+	at com.yaof.service.impl.GameRoleServiceImpl.insertRoleInfo(GameRoleServiceImpl.java:44)
+	at com.yaof.service.impl.GameRoleServiceImpl$$FastClassBySpringCGLIB$$3b233c7a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:736)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
+	at com.yaof.service.impl.GameRoleServiceImpl$$EnhancerBySpringCGLIB$$55b2a7be.insertRoleInfo(<generated>)
+	at com.yaof.controller.GameRoleController.insertRoleInfo(GameRoleController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.yaof.interceptor.WebComponent2Config$SessionFilter.doFilter(WebComponent2Config.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-30 17:25:10,232 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:48) INFO  --> Starting RecordClearAideApplication on yaofang with PID 7728 (E:\workspace_winning\RecordClearAide\target\classes started by Administrator in E:\workspace_winning\RecordClearAide)
+2020-07-30 17:25:10,237 com.yaof.RecordClearAideApplication [main] (SpringApplication.java:593) INFO  --> No active profile set, falling back to default profiles: default
+2020-07-30 17:25:10,307 org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] (AbstractApplicationContext.java:583) INFO  --> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2053d869: startup date [Thu Jul 30 17:25:10 CST 2020]; root of context hierarchy
+2020-07-30 17:25:10,720 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:30) INFO  --> HV000001: Hibernate Validator 5.3.6.Final
+2020-07-30 17:25:11,348 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] (XmlBeanDefinitionReader.java:317) INFO  --> Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2020-07-30 17:25:11,740 org.mybatis.spring.mapper.ClassPathMapperScanner [main] (ClassPathMapperScanner.java:166) WARN  --> No MyBatis mapper was found in '[com.yaof]' package. Please check your configuration.
+2020-07-30 17:25:12,306 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#2e807c54' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:25:12,439 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:25:12,446 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#3d904e9c' of type [org.springframework.aop.aspectj.AspectJAfterAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:25:12,449 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:25:12,489 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96c518e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-30 17:25:13,660 org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] (TomcatEmbeddedServletContainer.java:92) INFO  --> Tomcat initialized with port(s): 8088 (http)
+2020-07-30 17:25:14,052 org.springframework.web.context.ContextLoader [localhost-startStop-1] (EmbeddedWebApplicationContext.java:276) INFO  --> Root WebApplicationContext: initialization completed in 3748 ms
+2020-07-30 17:25:14,403 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-30 17:25:14,404 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-30 17:25:14,405 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-30 17:25:14,407 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-30 17:25:14,407 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'sessionFilter' to urls: [/*]
+2020-07-30 17:25:14,407 org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-07-30 17:25:14,408 org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'dispatcherServlet' to [/]
+2020-07-30 17:25:14,410 org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-07-30 17:25:14,764 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-1} inited
+2020-07-30 17:25:15,137 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-2} inited
+2020-07-30 17:25:15,447 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:33) INFO  --> test:------初始化测试。。。。
+2020-07-30 17:25:16,076 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryDayDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryDayDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,078 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/addAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.addAccountDetail(java.util.List<com.yaof.pojo.AmmountSum>,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,079 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/deleteDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.deleteDayDetailById(com.yaof.pojo.AmmountSum)
+2020-07-30 17:25:16,080 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/saveDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.saveDayDetailById(com.yaof.pojo.AmmountSum)
+2020-07-30 17:25:16,081 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryAccountDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,083 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/index]}" onto public java.lang.String com.yaof.controller.GameRoleController.index()
+2020-07-30 17:25:16,085 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/selectNumber],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.selectNumber()
+2020-07-30 17:25:16,085 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertRoleInfo(com.yaof.pojo.GameRole,javax.servlet.http.HttpServletRequest)
+2020-07-30 17:25:16,087 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertBatchRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertBatchRoleInfo()
+2020-07-30 17:25:16,094 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/register],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.register(com.yaof.pojo.User)
+2020-07-30 17:25:16,094 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getUserInfo],methods=[POST]}" onto public java.lang.String com.yaof.controller.UserController.getUserInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-07-30 17:25:16,095 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePasswordByAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePasswordByAccount(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,096 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getAccount],methods=[POST]}" onto private java.lang.String com.yaof.controller.UserController.getAccount(javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,098 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/login],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.login(com.yaof.pojo.User,javax.servlet.http.HttpServletRequest)
+2020-07-30 17:25:16,099 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/checkAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(java.lang.String)
+2020-07-30 17:25:16,099 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/logout],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(javax.servlet.http.HttpServletRequest)
+2020-07-30 17:25:16,100 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/saveUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.saveUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,101 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/addRcaUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.addRcaUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,102 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePassword],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePassword(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,103 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/queryAccountByPower],methods=[POST]}" onto private com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.User>> com.yaof.controller.UserController.queryAccountByPower(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-07-30 17:25:16,104 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/deleteAccountById],methods=[POST]}" onto private com.yaof.pojo.utils.Response com.yaof.controller.UserController.deleteAccountById(java.lang.String)
+2020-07-30 17:25:16,109 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-07-30 17:25:16,112 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-07-30 17:25:16,114 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-07-30 17:25:16,117 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-30 17:25:16,118 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-30 17:25:16,414 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-07-30 17:25:16,452 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:165) INFO  --> Initializing ExecutorService  'executor'
+2020-07-30 17:25:16,553 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1172) INFO  --> Using default implementation for ThreadExecutor
+2020-07-30 17:25:16,573 org.quartz.core.SchedulerSignalerImpl [main] (SchedulerSignalerImpl.java:61) INFO  --> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-30 17:25:16,578 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:240) INFO  --> Quartz Scheduler v.2.2.3 created.
+2020-07-30 17:25:16,581 org.quartz.simpl.RAMJobStore [main] (RAMJobStore.java:155) INFO  --> RAMJobStore initialized.
+2020-07-30 17:25:16,582 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:305) INFO  --> Scheduler meta-data: Quartz Scheduler (v2.2.3) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-30 17:25:16,583 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1327) INFO  --> Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2020-07-30 17:25:16,583 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1331) INFO  --> Quartz scheduler version: 2.2.3
+2020-07-30 17:25:16,586 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:2311) INFO  --> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@216c22ce
+2020-07-30 17:25:16,922 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] (RequestMappingHandlerAdapter.java:534) INFO  --> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2053d869: startup date [Thu Jul 30 17:25:10 CST 2020]; root of context hierarchy
+2020-07-30 17:25:17,001 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-30 17:25:17,001 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-30 17:25:17,069 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-30 17:25:18,117 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:431) INFO  --> Registering beans for JMX exposure on startup
+2020-07-30 17:25:18,119 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2020-07-30 17:25:18,119 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2020-07-30 17:25:18,121 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-07-30 17:25:18,128 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2020-07-30 17:25:18,129 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2020-07-30 17:25:18,131 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-07-30 17:25:18,137 org.springframework.context.support.DefaultLifecycleProcessor [main] (DefaultLifecycleProcessor.java:341) INFO  --> Starting beans in phase 2147483647
+2020-07-30 17:25:18,137 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2020-07-30 17:25:18,162 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2020-07-30 17:25:18,209 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2020-07-30 17:25:18,540 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] (CachingOperationNameGenerator.java:40) INFO  --> Generating unique operation named: checkAccountUsingPOST_1
+2020-07-30 17:25:18,626 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] (SchedulerFactoryBean.java:671) INFO  --> Starting Quartz Scheduler now
+2020-07-30 17:25:18,627 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:575) INFO  --> Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2020-07-30 17:25:18,728 org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] (TomcatEmbeddedServletContainer.java:216) INFO  --> Tomcat started on port(s): 8088 (http)
+2020-07-30 17:25:18,741 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:57) INFO  --> Started RecordClearAideApplication in 8.832 seconds (JVM running for 9.523)
+2020-07-30 17:25:18,742 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:23) INFO  --> RecordClearAideApplication start success.
+2020-07-30 17:25:22,230 org.springframework.web.servlet.DispatcherServlet [http-nio-8088-exec-1] (FrameworkServlet.java:489) INFO  --> FrameworkServlet 'dispatcherServlet': initialization started
+2020-07-30 17:25:22,273 org.springframework.web.servlet.DispatcherServlet [http-nio-8088-exec-1] (FrameworkServlet.java:508) INFO  --> FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+2020-07-30 17:25:24,623 com.yaof.controller.UserController [http-nio-8088-exec-5] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-07-30 17:25:24,623 com.yaof.controller.UserController [http-nio-8088-exec-5] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-07-30 17:25:25,632 com.yaof.point.TransactionDemo [http-nio-8088-exec-5] (TransactionDemo.java:22) INFO  --> now the url is:/rca/login
+2020-07-30 17:25:25,633 com.yaof.point.TransactionDemo [http-nio-8088-exec-5] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:25:25,678 com.yaof.point.TransactionDemo [http-nio-8088-exec-5] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:25:34,689 com.yaof.interceptor.WebAppConfig [http-nio-8088-exec-3] (WebAppConfig.java:52) INFO  --> ============================================
+2020-07-30 17:25:34,690 com.yaof.interceptor.WebAppConfig [http-nio-8088-exec-3] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-07-30 17:25:35,730 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:22) INFO  --> now the url is:/rca/insertRoleInfo
+2020-07-30 17:25:35,730 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:25:35,920 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:25:35,920 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:22) INFO  --> now the url is:/rca/insertRoleInfo
+2020-07-30 17:25:35,920 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:25:35,926 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:25:35,943 com.yaof.controller.GameRoleController [http-nio-8088-exec-3] (GameRoleController.java:42) ERROR --> / by zero
+java.lang.ArithmeticException: / by zero
+	at com.yaof.service.impl.GameRoleServiceImpl.insertRoleInfo001(GameRoleServiceImpl.java:50)
+	at com.yaof.service.impl.GameRoleServiceImpl.insertRoleInfo(GameRoleServiceImpl.java:44)
+	at com.yaof.service.impl.GameRoleServiceImpl$$FastClassBySpringCGLIB$$3b233c7a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:736)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
+	at com.yaof.service.impl.GameRoleServiceImpl$$EnhancerBySpringCGLIB$$30b794f0.insertRoleInfo(<generated>)
+	at com.yaof.controller.GameRoleController.insertRoleInfo(GameRoleController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.yaof.interceptor.WebComponent2Config$SessionFilter.doFilter(WebComponent2Config.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-30 17:38:16,069 com.yaof.interceptor.WebAppConfig [http-nio-8088-exec-9] (WebAppConfig.java:52) INFO  --> ============================================
+2020-07-30 17:38:16,073 com.yaof.interceptor.WebAppConfig [http-nio-8088-exec-9] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-07-30 17:38:16,081 com.yaof.point.TransactionDemo [http-nio-8088-exec-9] (TransactionDemo.java:22) INFO  --> now the url is:/rca/insertRoleInfo
+2020-07-30 17:38:16,081 com.yaof.point.TransactionDemo [http-nio-8088-exec-9] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:38:16,090 com.yaof.point.TransactionDemo [http-nio-8088-exec-9] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:38:16,091 com.yaof.point.TransactionDemo [http-nio-8088-exec-9] (TransactionDemo.java:22) INFO  --> now the url is:/rca/insertRoleInfo
+2020-07-30 17:38:16,091 com.yaof.point.TransactionDemo [http-nio-8088-exec-9] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:38:16,100 com.yaof.point.TransactionDemo [http-nio-8088-exec-9] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:38:16,111 com.yaof.controller.GameRoleController [http-nio-8088-exec-9] (GameRoleController.java:42) ERROR --> / by zero
+java.lang.ArithmeticException: / by zero
+	at com.yaof.service.impl.GameRoleServiceImpl.insertRoleInfo001(GameRoleServiceImpl.java:50)
+	at com.yaof.service.impl.GameRoleServiceImpl.insertRoleInfo(GameRoleServiceImpl.java:44)
+	at com.yaof.service.impl.GameRoleServiceImpl$$FastClassBySpringCGLIB$$3b233c7a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:736)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
+	at com.yaof.service.impl.GameRoleServiceImpl$$EnhancerBySpringCGLIB$$30b794f0.insertRoleInfo(<generated>)
+	at com.yaof.controller.GameRoleController.insertRoleInfo(GameRoleController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.yaof.interceptor.WebComponent2Config$SessionFilter.doFilter(WebComponent2Config.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-30 17:39:17,435 com.yaof.controller.UserController [http-nio-8088-exec-4] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-07-30 17:39:17,436 com.yaof.controller.UserController [http-nio-8088-exec-4] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-07-30 17:39:18,437 com.yaof.point.TransactionDemo [http-nio-8088-exec-4] (TransactionDemo.java:22) INFO  --> now the url is:/rca/login
+2020-07-30 17:39:18,437 com.yaof.point.TransactionDemo [http-nio-8088-exec-4] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:39:18,440 com.yaof.point.TransactionDemo [http-nio-8088-exec-4] (TransactionDemo.java:30) INFO  --> point after...
+2020-07-30 17:39:59,509 com.yaof.controller.UserController [http-nio-8088-exec-3] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-07-30 17:39:59,510 com.yaof.controller.UserController [http-nio-8088-exec-3] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-07-30 17:40:00,510 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:22) INFO  --> now the url is:/rca/login
+2020-07-30 17:40:00,511 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:26) INFO  --> point before...
+2020-07-30 17:40:00,516 com.yaof.point.TransactionDemo [http-nio-8088-exec-3] (TransactionDemo.java:30) INFO  --> point after...

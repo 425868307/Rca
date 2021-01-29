@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yaof.mapper.AmmountMapper">
+    <select id="queryAccountDetail" resultType="com.yaof.pojo.AmmountSum"
+            parameterType="com.yaof.pojo.AmmountSum">
+        select
+        <if test="type == 'year'">year, '-' month, '-' day,</if>
+        <if test="type == 'month'">year, month, '-' day,</if>
+        <if test="type == 'day'">year, month, day,</if>
+        sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub
+        from
+        (select
+        <if test="type == 'year'">year(happen_date) year, '-' month, '-' day,</if>
+        <if test="type == 'month'">year(happen_date) year, month(happen_date) month, '-' day,</if>
+        <if test="type == 'day'">
+            year(happen_date) year, month(happen_date) month, day(happen_date) day,
+        </if>
+        cost, income
+        from
+        account_detail
+        where user_id = #{userId}
+        <if test="year != null and year != ''">and year(happen_date) = #{year}</if>
+        <if test="month != null and month != ''">and month(happen_date) = #{month}</if>
+        <if test="day != null and day != ''">and day(happen_date) = #{day}</if>
+        ) a
+        <if test="type == 'year'">GROUP BY year</if>
+        <if test="type == 'month'">GROUP BY year,month</if>
+        <if test="type == 'day'">GROUP BY year,month,day</if>
+        order by year desc, month desc, day desc
+        <if test="limit != '' and limit != null">limit #{limit}</if>
+    </select>
+
+    <select id="queryDayDetail" resultType="com.yaof.pojo.AmmountSum"
+            parameterType="com.yaof.pojo.AmmountSum">
+        select
+        d.id, year(happen_date) year, month(happen_date) month, day(happen_date) day, d.cost, d.income, d.desc,
+        happen_time happenTime
+        from account_detail d
+        where
+        user_id = #{userId} and happen_date = #{happenDate}
+        order by happen_time
+        <if test="limit != '' and limit != null">limit #{limit}</if>
+    </select>
+
+    <insert id="addAccountDetail" parameterType="com.yaof.pojo.AmmountSum">
+        insert into account_detail
+        (user_id, cost, income, `desc`, happen_date, happen_time, create_time)
+        values
+        (#{userId}, #{cost}, #{income}, #{desc}, #{happenDate}, #{happenTime}, NOW());
+    </insert>
+
+    <update id="updateDayDetailById" parameterType="com.yaof.pojo.AmmountSum">
+        update account_detail
+        <set>
+            cost = #{cost},
+            income = #{income},
+            `desc` = #{desc},
+            update_time = now()
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteDayDetailById" parameterType="String">
+        delete from account_detail where id = #{id}
+    </delete>
+</mapper>

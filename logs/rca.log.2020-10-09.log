@@ -1,0 +1,1019 @@
+2020-10-09 17:35:48,096 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:48) INFO  --> Starting RecordClearAideApplication on yaofang with PID 8672 (E:\workspace_winning\RecordClearAide\target\classes started by Administrator in E:\workspace_winning\RecordClearAide)
+2020-10-09 17:35:48,102 com.yaof.RecordClearAideApplication [main] (SpringApplication.java:597) INFO  --> The following profiles are active: prd
+2020-10-09 17:35:48,237 org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] (AbstractApplicationContext.java:583) INFO  --> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32ee6fee: startup date [Fri Oct 09 17:35:48 CST 2020]; root of context hierarchy
+2020-10-09 17:35:48,943 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:30) INFO  --> HV000001: Hibernate Validator 5.3.6.Final
+2020-10-09 17:35:50,448 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] (XmlBeanDefinitionReader.java:317) INFO  --> Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2020-10-09 17:35:51,468 org.mybatis.spring.mapper.ClassPathMapperScanner [main] (ClassPathMapperScanner.java:166) WARN  --> No MyBatis mapper was found in '[com.yaof]' package. Please check your configuration.
+2020-10-09 17:35:52,478 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#4a67b4ec' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:35:52,677 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:35:52,697 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#142213d5' of type [org.springframework.aop.aspectj.AspectJAfterAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:35:52,702 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:35:52,762 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c072b4a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:35:53,419 org.eclipse.jetty.util.log [main] (Log.java:193) INFO  --> Logging initialized @6864ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-10-09 17:35:53,586 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory [main] (JettyEmbeddedServletContainerFactory.java:177) INFO  --> Server initialized with port: 8088
+2020-10-09 17:35:53,590 org.eclipse.jetty.server.Server [main] (Server.java:374) INFO  --> jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_172-b11
+2020-10-09 17:35:53,822 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:365) INFO  --> DefaultSessionIdManager workerName=node0
+2020-10-09 17:35:53,823 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:370) INFO  --> No SessionScavenger set, using defaults
+2020-10-09 17:35:53,830 org.eclipse.jetty.server.session [main] (HouseKeeper.java:149) INFO  --> node0 Scavenging every 600000ms
+2020-10-09 17:35:53,867 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2020-10-09 17:35:54,184 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring embedded WebApplicationContext
+2020-10-09 17:35:54,184 org.springframework.web.context.ContextLoader [main] (EmbeddedWebApplicationContext.java:276) INFO  --> Root WebApplicationContext: initialization completed in 5951 ms
+2020-10-09 17:35:54,695 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-09 17:35:54,696 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-09 17:35:54,696 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-10-09 17:35:54,697 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-09 17:35:54,697 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'sessionFilter' to urls: [/*]
+2020-10-09 17:35:54,697 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-10-09 17:35:54,698 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'dispatcherServlet' to [/]
+2020-10-09 17:35:54,699 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-10-09 17:35:54,707 org.eclipse.jetty.server.handler.ContextHandler [main] (ContextHandler.java:788) INFO  --> Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@7d9c45ee{/rca,[file:///E:/workspace_winning/RecordClearAide/src/main/webapp/, jar:file:/D:/dev/maven/maven_31/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-10-09 17:35:54,708 org.eclipse.jetty.server.Server [main] (Server.java:411) INFO  --> Started @8156ms
+2020-10-09 17:35:54,928 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-1} inited
+2020-10-09 17:35:55,428 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-2} inited
+2020-10-09 17:35:55,879 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:33) INFO  --> test:------初始化测试。。。。
+2020-10-09 17:35:56,720 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryAccountDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,722 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/deleteDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.deleteDayDetailById(com.yaof.pojo.AmmountSum)
+2020-10-09 17:35:56,723 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/saveDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.saveDayDetailById(com.yaof.pojo.AmmountSum)
+2020-10-09 17:35:56,723 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/addAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.addAccountDetail(java.util.List<com.yaof.pojo.AmmountSum>,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,725 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryDayDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryDayDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,727 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/index]}" onto public java.lang.String com.yaof.controller.GameRoleController.index(java.lang.String)
+2020-10-09 17:35:56,727 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertBatchRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertBatchRoleInfo()
+2020-10-09 17:35:56,728 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/selectNumber],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.selectNumber()
+2020-10-09 17:35:56,729 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertRoleInfo(com.yaof.pojo.GameRole,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:35:56,737 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/register],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.register(com.yaof.pojo.User)
+2020-10-09 17:35:56,737 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getUserInfo],methods=[POST]}" onto public java.lang.String com.yaof.controller.UserController.getUserInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:35:56,738 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/saveUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.saveUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,739 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/addRcaUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.addRcaUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,739 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePassword],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePassword(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,741 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/login],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.login(com.yaof.pojo.User,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:35:56,742 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/logout],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(javax.servlet.http.HttpServletRequest)
+2020-10-09 17:35:56,742 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/checkAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(java.lang.String)
+2020-10-09 17:35:56,742 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getAccount],methods=[POST]}" onto private java.lang.String com.yaof.controller.UserController.getAccount(javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,743 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePasswordByAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePasswordByAccount(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,744 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/deleteAccountById],methods=[POST]}" onto private com.yaof.pojo.utils.Response com.yaof.controller.UserController.deleteAccountById(java.lang.String)
+2020-10-09 17:35:56,744 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/queryAccountByPower],methods=[POST]}" onto private com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.User>> com.yaof.controller.UserController.queryAccountByPower(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:35:56,749 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-10-09 17:35:56,751 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-10-09 17:35:56,752 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-10-09 17:35:56,755 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-10-09 17:35:56,757 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-10-09 17:35:57,112 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-10-09 17:35:57,163 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:165) INFO  --> Initializing ExecutorService  'executor'
+2020-10-09 17:35:57,272 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1172) INFO  --> Using default implementation for ThreadExecutor
+2020-10-09 17:35:57,295 org.quartz.core.SchedulerSignalerImpl [main] (SchedulerSignalerImpl.java:61) INFO  --> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-10-09 17:35:57,295 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:240) INFO  --> Quartz Scheduler v.2.2.3 created.
+2020-10-09 17:35:57,297 org.quartz.simpl.RAMJobStore [main] (RAMJobStore.java:155) INFO  --> RAMJobStore initialized.
+2020-10-09 17:35:57,298 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:305) INFO  --> Scheduler meta-data: Quartz Scheduler (v2.2.3) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-09 17:35:57,298 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1327) INFO  --> Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2020-10-09 17:35:57,299 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1331) INFO  --> Quartz scheduler version: 2.2.3
+2020-10-09 17:35:57,301 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:2311) INFO  --> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@455cbf18
+2020-10-09 17:35:57,733 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] (RequestMappingHandlerAdapter.java:534) INFO  --> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32ee6fee: startup date [Fri Oct 09 17:35:48 CST 2020]; root of context hierarchy
+2020-10-09 17:35:57,838 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:35:57,838 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:35:57,908 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:35:59,143 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:431) INFO  --> Registering beans for JMX exposure on startup
+2020-10-09 17:35:59,146 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2020-10-09 17:35:59,146 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2020-10-09 17:35:59,147 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-10-09 17:35:59,156 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2020-10-09 17:35:59,157 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2020-10-09 17:35:59,159 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-10-09 17:35:59,165 org.springframework.context.support.DefaultLifecycleProcessor [main] (DefaultLifecycleProcessor.java:341) INFO  --> Starting beans in phase 2147483647
+2020-10-09 17:35:59,166 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2020-10-09 17:35:59,200 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2020-10-09 17:35:59,244 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2020-10-09 17:35:59,696 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] (CachingOperationNameGenerator.java:40) INFO  --> Generating unique operation named: checkAccountUsingPOST_1
+2020-10-09 17:35:59,791 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] (SchedulerFactoryBean.java:671) INFO  --> Starting Quartz Scheduler now
+2020-10-09 17:35:59,792 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:575) INFO  --> Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2020-10-09 17:35:59,803 org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor [main] (ScheduledAnnotationBeanPostProcessor.java:268) INFO  --> No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-09 17:35:59,826 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-10-09 17:35:59,826 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:489) INFO  --> FrameworkServlet 'dispatcherServlet': initialization started
+2020-10-09 17:35:59,851 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:508) INFO  --> FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2020-10-09 17:36:00,601 org.eclipse.jetty.server.AbstractConnector [main] (AbstractConnector.java:289) INFO  --> Started ServerConnector@31da0434{HTTP/1.1,[http/1.1]}{0.0.0.0:8088}
+2020-10-09 17:36:00,602 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer [main] (JettyEmbeddedServletContainer.java:155) INFO  --> Jetty started on port(s) 8088 (http/1.1)
+2020-10-09 17:36:00,611 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:57) INFO  --> Started RecordClearAideApplication in 13.067 seconds (JVM running for 14.06)
+2020-10-09 17:36:00,612 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:23) INFO  --> RecordClearAideApplication start success.
+2020-10-09 17:36:23,116 com.yaof.controller.UserController [qtp823405912-23] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-10-09 17:36:23,116 com.yaof.controller.UserController [qtp823405912-23] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-10-09 17:36:24,129 com.yaof.point.TransactionDemo [qtp823405912-23] (TransactionDemo.java:28) INFO  --> now the url is:/rca/login
+2020-10-09 17:36:24,130 com.yaof.point.TransactionDemo [qtp823405912-23] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:36:24,167 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-10-09 17:36:24,197 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-10-09 17:36:24,222 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-10-09 17:36:24,225 com.yaof.point.TransactionDemo [qtp823405912-23] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:36:32,646 com.yaof.interceptor.WebAppConfig [qtp823405912-23] (WebAppConfig.java:52) INFO  --> /rca/error============================================
+2020-10-09 17:36:32,647 com.yaof.interceptor.WebAppConfig [qtp823405912-23] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-10-09 17:36:41,536 com.yaof.interceptor.WebAppConfig [qtp823405912-16] (WebAppConfig.java:52) INFO  --> /rca/error============================================
+2020-10-09 17:36:41,536 com.yaof.interceptor.WebAppConfig [qtp823405912-16] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-10-09 17:36:45,211 com.yaof.interceptor.WebAppConfig [qtp823405912-23] (WebAppConfig.java:52) INFO  --> /rca/error============================================
+2020-10-09 17:36:45,211 com.yaof.interceptor.WebAppConfig [qtp823405912-23] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-10-09 17:36:47,337 com.yaof.interceptor.WebAppConfig [qtp823405912-16] (WebAppConfig.java:52) INFO  --> /rca/error============================================
+2020-10-09 17:36:47,338 com.yaof.interceptor.WebAppConfig [qtp823405912-16] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-10-09 17:36:55,279 com.yaof.controller.UserController [qtp823405912-23] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-10-09 17:36:55,279 com.yaof.controller.UserController [qtp823405912-23] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-10-09 17:36:56,280 com.yaof.point.TransactionDemo [qtp823405912-23] (TransactionDemo.java:28) INFO  --> now the url is:/rca/login
+2020-10-09 17:36:56,280 com.yaof.point.TransactionDemo [qtp823405912-23] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:36:56,281 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-10-09 17:36:56,282 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-10-09 17:36:56,284 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-10-09 17:36:56,285 com.yaof.point.TransactionDemo [qtp823405912-23] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:36:59,179 com.yaof.interceptor.WebAppConfig [qtp823405912-19] (WebAppConfig.java:52) INFO  --> /rca/user/queryAccountDetail============================================
+2020-10-09 17:36:59,179 com.yaof.interceptor.WebAppConfig [qtp823405912-19] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-10-09 17:36:59,191 com.yaof.controller.AmmountController [qtp823405912-19] (AmmountController.java:46) INFO  --> 根据用户Id查询账户信息，参数:{"cost":0.0,"income":0.0,"limit":0,"month":"10","sub":0.0,"type":"day","userId":"1","year":"2020"}
+2020-10-09 17:36:59,200 com.yaof.point.TransactionDemo [qtp823405912-19] (TransactionDemo.java:28) INFO  --> now the url is:/rca/user/queryAccountDetail
+2020-10-09 17:36:59,201 com.yaof.point.TransactionDemo [qtp823405912-19] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:37:00,238 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp823405912-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select year, month, day, sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub from (select year(happen_date) year, month(happen_date) month, day(happen_date) day, cost, income from account_detail where user_id = ? and year(happen_date) = ? and month(happen_date) = ? ) a GROUP BY year,month,day order by year desc, month desc, day desc 
+2020-10-09 17:37:00,278 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 17:37:00,278 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 17:37:00,278 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:37:00,287 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 17:37:00,299 com.yaof.interceptor.WebAppConfig [qtp823405912-22] (WebAppConfig.java:52) INFO  --> /rca/logout============================================
+2020-10-09 17:37:00,300 com.yaof.interceptor.WebAppConfig [qtp823405912-22] (WebAppConfig.java:53) INFO  --> 拦截账号：null
+2020-10-09 17:37:00,599 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp823405912-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 1(String), 2020(String), 10(String)
+2020-10-09 17:37:00,601 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223622002010000(String), ilmecahweff(String), 价镭残迅(String), 05(String), F(String), 76(Integer), 0(Integer), 5767168(Integer), 29360128(Integer), 64(Integer), 232736200010075632(String), 茧凡(String), Y(String), 3(String), 1(String)
+2020-10-09 17:37:00,635 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 17:37:00,635 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:37:00,649 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp823405912-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-10-09 17:37:00,650 com.yaof.point.TransactionDemo [qtp823405912-19] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:37:00,652 com.yaof.controller.AmmountController [qtp823405912-19] (AmmountController.java:48) INFO  --> 根据用户Id查询账户信息，返回结果:[]
+2020-10-09 17:37:26,768 com.yaof.controller.UserController [qtp823405912-19] (UserController.java:66) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-10-09 17:37:26,769 com.yaof.controller.UserController [qtp823405912-19] (UserController.java:69) INFO  --> test.id:--------------->123
+2020-10-09 17:37:27,770 com.yaof.point.TransactionDemo [qtp823405912-19] (TransactionDemo.java:28) INFO  --> now the url is:/rca/login
+2020-10-09 17:37:27,771 com.yaof.point.TransactionDemo [qtp823405912-19] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:37:27,772 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-10-09 17:37:27,775 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-10-09 17:37:27,780 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp823405912-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-10-09 17:37:27,782 com.yaof.point.TransactionDemo [qtp823405912-19] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:40:02,988 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:48) INFO  --> Starting RecordClearAideApplication on yaofang with PID 7860 (E:\workspace_winning\RecordClearAide\target\classes started by Administrator in E:\workspace_winning\RecordClearAide)
+2020-10-09 17:40:02,991 com.yaof.RecordClearAideApplication [main] (SpringApplication.java:597) INFO  --> The following profiles are active: prd
+2020-10-09 17:40:03,129 org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] (AbstractApplicationContext.java:583) INFO  --> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32ee6fee: startup date [Fri Oct 09 17:40:03 CST 2020]; root of context hierarchy
+2020-10-09 17:40:03,887 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:30) INFO  --> HV000001: Hibernate Validator 5.3.6.Final
+2020-10-09 17:40:05,581 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] (XmlBeanDefinitionReader.java:317) INFO  --> Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2020-10-09 17:40:06,570 org.mybatis.spring.mapper.ClassPathMapperScanner [main] (ClassPathMapperScanner.java:166) WARN  --> No MyBatis mapper was found in '[com.yaof]' package. Please check your configuration.
+2020-10-09 17:40:07,567 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#48840594' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:40:07,763 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:40:07,772 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#76ad6715' of type [org.springframework.aop.aspectj.AspectJAfterAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:40:07,778 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:40:07,844 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cba36278] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:40:08,485 org.eclipse.jetty.util.log [main] (Log.java:193) INFO  --> Logging initialized @7018ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-10-09 17:40:08,659 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory [main] (JettyEmbeddedServletContainerFactory.java:177) INFO  --> Server initialized with port: 8088
+2020-10-09 17:40:08,662 org.eclipse.jetty.server.Server [main] (Server.java:374) INFO  --> jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_172-b11
+2020-10-09 17:40:08,828 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:365) INFO  --> DefaultSessionIdManager workerName=node0
+2020-10-09 17:40:08,829 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:370) INFO  --> No SessionScavenger set, using defaults
+2020-10-09 17:40:08,837 org.eclipse.jetty.server.session [main] (HouseKeeper.java:149) INFO  --> node0 Scavenging every 600000ms
+2020-10-09 17:40:08,870 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2020-10-09 17:40:09,257 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring embedded WebApplicationContext
+2020-10-09 17:40:09,257 org.springframework.web.context.ContextLoader [main] (EmbeddedWebApplicationContext.java:276) INFO  --> Root WebApplicationContext: initialization completed in 6132 ms
+2020-10-09 17:40:09,789 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-09 17:40:09,790 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-09 17:40:09,790 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-10-09 17:40:09,790 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-09 17:40:09,791 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'sessionFilter' to urls: [/*]
+2020-10-09 17:40:09,791 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-10-09 17:40:09,791 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'dispatcherServlet' to [/]
+2020-10-09 17:40:09,793 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-10-09 17:40:09,801 org.eclipse.jetty.server.handler.ContextHandler [main] (ContextHandler.java:788) INFO  --> Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@3c88191b{/rca,[file:///E:/workspace_winning/RecordClearAide/src/main/webapp/, jar:file:/D:/dev/maven/maven_31/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-10-09 17:40:09,802 org.eclipse.jetty.server.Server [main] (Server.java:411) INFO  --> Started @8339ms
+2020-10-09 17:40:09,988 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-1} inited
+2020-10-09 17:40:10,450 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-2} inited
+2020-10-09 17:40:10,841 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:33) INFO  --> test:------初始化测试。。。。
+2020-10-09 17:40:11,633 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryAccountDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,635 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/saveDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.saveDayDetailById(com.yaof.pojo.AmmountSum)
+2020-10-09 17:40:11,636 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/deleteDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.deleteDayDetailById(com.yaof.pojo.AmmountSum)
+2020-10-09 17:40:11,637 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/addAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.addAccountDetail(java.util.List<com.yaof.pojo.AmmountSum>,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,637 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryDayDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryDayDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,639 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/index]}" onto public java.lang.String com.yaof.controller.GameRoleController.index(java.lang.String)
+2020-10-09 17:40:11,640 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertBatchRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertBatchRoleInfo()
+2020-10-09 17:40:11,641 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertRoleInfo(com.yaof.pojo.GameRole,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:40:11,641 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/selectNumber],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.selectNumber()
+2020-10-09 17:40:11,647 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/register],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.register(com.yaof.pojo.User)
+2020-10-09 17:40:11,648 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getUserInfo],methods=[POST]}" onto public java.lang.String com.yaof.controller.UserController.getUserInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:40:11,649 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/deleteAccountById],methods=[POST]}" onto private com.yaof.pojo.utils.Response com.yaof.controller.UserController.deleteAccountById(java.lang.String)
+2020-10-09 17:40:11,650 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/queryAccountByPower],methods=[POST]}" onto private com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.User>> com.yaof.controller.UserController.queryAccountByPower(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,650 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePasswordByAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePasswordByAccount(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,651 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/login],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.login(com.yaof.pojo.User,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:40:11,651 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/checkAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(java.lang.String)
+2020-10-09 17:40:11,652 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/logout],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(javax.servlet.http.HttpServletRequest)
+2020-10-09 17:40:11,652 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePassword],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePassword(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,653 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/addRcaUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.addRcaUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,654 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/saveUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.saveUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,654 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getAccount],methods=[POST]}" onto private java.lang.String com.yaof.controller.UserController.getAccount(javax.servlet.http.HttpSession)
+2020-10-09 17:40:11,658 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-10-09 17:40:11,659 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-10-09 17:40:11,660 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-10-09 17:40:11,663 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-10-09 17:40:11,664 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-10-09 17:40:11,993 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-10-09 17:40:12,045 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:165) INFO  --> Initializing ExecutorService  'executor'
+2020-10-09 17:40:12,150 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1172) INFO  --> Using default implementation for ThreadExecutor
+2020-10-09 17:40:12,169 org.quartz.core.SchedulerSignalerImpl [main] (SchedulerSignalerImpl.java:61) INFO  --> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-10-09 17:40:12,169 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:240) INFO  --> Quartz Scheduler v.2.2.3 created.
+2020-10-09 17:40:12,171 org.quartz.simpl.RAMJobStore [main] (RAMJobStore.java:155) INFO  --> RAMJobStore initialized.
+2020-10-09 17:40:12,172 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:305) INFO  --> Scheduler meta-data: Quartz Scheduler (v2.2.3) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-09 17:40:12,172 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1327) INFO  --> Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2020-10-09 17:40:12,173 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1331) INFO  --> Quartz scheduler version: 2.2.3
+2020-10-09 17:40:12,175 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:2311) INFO  --> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@543b0737
+2020-10-09 17:40:12,647 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] (RequestMappingHandlerAdapter.java:534) INFO  --> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32ee6fee: startup date [Fri Oct 09 17:40:03 CST 2020]; root of context hierarchy
+2020-10-09 17:40:12,752 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:40:12,753 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:40:12,817 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:40:14,003 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:431) INFO  --> Registering beans for JMX exposure on startup
+2020-10-09 17:40:14,006 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2020-10-09 17:40:14,006 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2020-10-09 17:40:14,008 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-10-09 17:40:14,016 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2020-10-09 17:40:14,018 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2020-10-09 17:40:14,019 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-10-09 17:40:14,025 org.springframework.context.support.DefaultLifecycleProcessor [main] (DefaultLifecycleProcessor.java:341) INFO  --> Starting beans in phase 2147483647
+2020-10-09 17:40:14,026 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2020-10-09 17:40:14,059 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2020-10-09 17:40:14,108 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2020-10-09 17:40:14,530 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] (CachingOperationNameGenerator.java:40) INFO  --> Generating unique operation named: checkAccountUsingPOST_1
+2020-10-09 17:40:14,629 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] (SchedulerFactoryBean.java:671) INFO  --> Starting Quartz Scheduler now
+2020-10-09 17:40:14,630 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:575) INFO  --> Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2020-10-09 17:40:14,643 org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor [main] (ScheduledAnnotationBeanPostProcessor.java:268) INFO  --> No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-09 17:40:14,672 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-10-09 17:40:14,672 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:489) INFO  --> FrameworkServlet 'dispatcherServlet': initialization started
+2020-10-09 17:40:14,711 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:508) INFO  --> FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2020-10-09 17:40:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:15,433 org.eclipse.jetty.server.AbstractConnector [main] (AbstractConnector.java:289) INFO  --> Started ServerConnector@74960e9d{HTTP/1.1,[http/1.1]}{0.0.0.0:8088}
+2020-10-09 17:40:15,434 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer [main] (JettyEmbeddedServletContainer.java:155) INFO  --> Jetty started on port(s) 8088 (http/1.1)
+2020-10-09 17:40:15,445 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:57) INFO  --> Started RecordClearAideApplication in 13.026 seconds (JVM running for 13.981)
+2020-10-09 17:40:15,445 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:23) INFO  --> RecordClearAideApplication start success.
+2020-10-09 17:40:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:40:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:41:02,346 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:48) INFO  --> Starting RecordClearAideApplication on yaofang with PID 6208 (E:\workspace_winning\RecordClearAide\target\classes started by Administrator in E:\workspace_winning\RecordClearAide)
+2020-10-09 17:41:02,349 com.yaof.RecordClearAideApplication [main] (SpringApplication.java:597) INFO  --> The following profiles are active: prd
+2020-10-09 17:41:02,476 org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] (AbstractApplicationContext.java:583) INFO  --> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32ee6fee: startup date [Fri Oct 09 17:41:02 CST 2020]; root of context hierarchy
+2020-10-09 17:41:03,219 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:30) INFO  --> HV000001: Hibernate Validator 5.3.6.Final
+2020-10-09 17:41:05,604 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] (XmlBeanDefinitionReader.java:317) INFO  --> Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2020-10-09 17:41:06,432 org.mybatis.spring.mapper.ClassPathMapperScanner [main] (ClassPathMapperScanner.java:166) WARN  --> No MyBatis mapper was found in '[com.yaof]' package. Please check your configuration.
+2020-10-09 17:41:07,190 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#4beabeec' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:41:07,333 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:41:07,343 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#237f7970' of type [org.springframework.aop.aspectj.AspectJAfterAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:41:07,346 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:41:07,396 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c48afe89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-09 17:41:07,965 org.eclipse.jetty.util.log [main] (Log.java:193) INFO  --> Logging initialized @7171ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-10-09 17:41:08,108 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory [main] (JettyEmbeddedServletContainerFactory.java:177) INFO  --> Server initialized with port: 8088
+2020-10-09 17:41:08,111 org.eclipse.jetty.server.Server [main] (Server.java:374) INFO  --> jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_172-b11
+2020-10-09 17:41:08,365 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:365) INFO  --> DefaultSessionIdManager workerName=node0
+2020-10-09 17:41:08,365 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:370) INFO  --> No SessionScavenger set, using defaults
+2020-10-09 17:41:08,372 org.eclipse.jetty.server.session [main] (HouseKeeper.java:149) INFO  --> node0 Scavenging every 660000ms
+2020-10-09 17:41:08,409 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2020-10-09 17:41:08,711 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring embedded WebApplicationContext
+2020-10-09 17:41:08,711 org.springframework.web.context.ContextLoader [main] (EmbeddedWebApplicationContext.java:276) INFO  --> Root WebApplicationContext: initialization completed in 6240 ms
+2020-10-09 17:41:09,237 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-10-09 17:41:09,237 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-10-09 17:41:09,238 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-10-09 17:41:09,238 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'requestContextFilter' to: [/*]
+2020-10-09 17:41:09,239 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'sessionFilter' to urls: [/*]
+2020-10-09 17:41:09,239 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-10-09 17:41:09,239 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'dispatcherServlet' to [/]
+2020-10-09 17:41:09,242 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-10-09 17:41:09,251 org.eclipse.jetty.server.handler.ContextHandler [main] (ContextHandler.java:788) INFO  --> Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@7a083b96{/rca,[file:///E:/workspace_winning/RecordClearAide/src/main/webapp/, jar:file:/D:/dev/maven/maven_31/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-10-09 17:41:09,252 org.eclipse.jetty.server.Server [main] (Server.java:411) INFO  --> Started @8460ms
+2020-10-09 17:41:09,514 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-1} inited
+2020-10-09 17:41:09,919 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-2} inited
+2020-10-09 17:41:10,321 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:33) INFO  --> test:------初始化测试。。。。
+2020-10-09 17:41:11,094 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryAccountDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,095 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/saveDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.saveDayDetailById(com.yaof.pojo.AmmountSum)
+2020-10-09 17:41:11,096 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/deleteDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.deleteDayDetailById(com.yaof.pojo.AmmountSum)
+2020-10-09 17:41:11,097 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/addAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.addAccountDetail(java.util.List<com.yaof.pojo.AmmountSum>,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,097 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryDayDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryDayDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,099 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/index]}" onto public java.lang.String com.yaof.controller.GameRoleController.index(java.lang.String)
+2020-10-09 17:41:11,100 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertBatchRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertBatchRoleInfo()
+2020-10-09 17:41:11,100 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertRoleInfo(com.yaof.pojo.GameRole,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:41:11,101 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/selectNumber],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.selectNumber()
+2020-10-09 17:41:11,109 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/register],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.register(com.yaof.pojo.User)
+2020-10-09 17:41:11,110 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getUserInfo],methods=[POST]}" onto public java.lang.String com.yaof.controller.UserController.getUserInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:41:11,110 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/queryAccountByPower],methods=[POST]}" onto private com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.User>> com.yaof.controller.UserController.queryAccountByPower(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,111 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePasswordByAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePasswordByAccount(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,112 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/deleteAccountById],methods=[POST]}" onto private com.yaof.pojo.utils.Response com.yaof.controller.UserController.deleteAccountById(java.lang.String)
+2020-10-09 17:41:11,112 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/login],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.login(com.yaof.pojo.User,javax.servlet.http.HttpServletRequest)
+2020-10-09 17:41:11,113 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getAccount],methods=[POST]}" onto private java.lang.String com.yaof.controller.UserController.getAccount(javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,114 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/checkAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(java.lang.String)
+2020-10-09 17:41:11,114 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/logout],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(javax.servlet.http.HttpServletRequest)
+2020-10-09 17:41:11,115 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/saveUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.saveUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,116 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePassword],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePassword(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,116 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/addRcaUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.addRcaUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-10-09 17:41:11,123 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-10-09 17:41:11,124 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-10-09 17:41:11,126 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-10-09 17:41:11,132 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-10-09 17:41:11,133 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-10-09 17:41:11,509 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-10-09 17:41:11,548 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:165) INFO  --> Initializing ExecutorService  'executor'
+2020-10-09 17:41:11,648 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1172) INFO  --> Using default implementation for ThreadExecutor
+2020-10-09 17:41:11,673 org.quartz.core.SchedulerSignalerImpl [main] (SchedulerSignalerImpl.java:61) INFO  --> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-10-09 17:41:11,673 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:240) INFO  --> Quartz Scheduler v.2.2.3 created.
+2020-10-09 17:41:11,675 org.quartz.simpl.RAMJobStore [main] (RAMJobStore.java:155) INFO  --> RAMJobStore initialized.
+2020-10-09 17:41:11,677 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:305) INFO  --> Scheduler meta-data: Quartz Scheduler (v2.2.3) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-10-09 17:41:11,677 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1327) INFO  --> Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2020-10-09 17:41:11,677 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1331) INFO  --> Quartz scheduler version: 2.2.3
+2020-10-09 17:41:11,680 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:2311) INFO  --> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@316d30ad
+2020-10-09 17:41:12,111 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] (RequestMappingHandlerAdapter.java:534) INFO  --> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32ee6fee: startup date [Fri Oct 09 17:41:02 CST 2020]; root of context hierarchy
+2020-10-09 17:41:12,221 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:41:12,222 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:41:12,321 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-09 17:41:13,467 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:431) INFO  --> Registering beans for JMX exposure on startup
+2020-10-09 17:41:13,469 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2020-10-09 17:41:13,469 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2020-10-09 17:41:13,470 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-10-09 17:41:13,481 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2020-10-09 17:41:13,482 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2020-10-09 17:41:13,483 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-10-09 17:41:13,489 org.springframework.context.support.DefaultLifecycleProcessor [main] (DefaultLifecycleProcessor.java:341) INFO  --> Starting beans in phase 2147483647
+2020-10-09 17:41:13,489 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2020-10-09 17:41:13,523 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2020-10-09 17:41:13,578 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2020-10-09 17:41:13,964 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] (CachingOperationNameGenerator.java:40) INFO  --> Generating unique operation named: checkAccountUsingPOST_1
+2020-10-09 17:41:14,099 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] (SchedulerFactoryBean.java:671) INFO  --> Starting Quartz Scheduler now
+2020-10-09 17:41:14,099 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:575) INFO  --> Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2020-10-09 17:41:14,110 org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor [main] (ScheduledAnnotationBeanPostProcessor.java:268) INFO  --> No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-09 17:41:14,131 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-10-09 17:41:14,131 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:489) INFO  --> FrameworkServlet 'dispatcherServlet': initialization started
+2020-10-09 17:41:14,158 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:508) INFO  --> FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2020-10-09 17:41:14,879 org.eclipse.jetty.server.AbstractConnector [main] (AbstractConnector.java:289) INFO  --> Started ServerConnector@6da4feeb{HTTP/1.1,[http/1.1]}{0.0.0.0:8088}
+2020-10-09 17:41:14,880 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer [main] (JettyEmbeddedServletContainer.java:155) INFO  --> Jetty started on port(s) 8088 (http/1.1)
+2020-10-09 17:41:14,889 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:57) INFO  --> Started RecordClearAideApplication in 13.088 seconds (JVM running for 14.098)
+2020-10-09 17:41:14,889 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:23) INFO  --> RecordClearAideApplication start success.
+2020-10-09 17:41:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-10-09 17:41:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：2
+2020-10-09 17:41:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：3
+2020-10-09 17:41:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：4
+2020-10-09 17:41:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：5
+2020-10-09 17:41:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：6
+2020-10-09 17:41:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：7
+2020-10-09 17:41:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：8
+2020-10-09 17:41:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：9
+2020-10-09 17:42:00,009 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：10
+2020-10-09 17:42:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：11
+2020-10-09 17:42:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：12
+2020-10-09 17:42:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：13
+2020-10-09 17:42:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：14
+2020-10-09 17:42:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：15
+2020-10-09 17:42:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：16
+2020-10-09 17:42:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：17
+2020-10-09 17:42:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：18
+2020-10-09 17:42:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：19
+2020-10-09 17:42:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：20
+2020-10-09 17:42:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：21
+2020-10-09 17:43:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：22
+2020-10-09 17:43:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：23
+2020-10-09 17:43:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：24
+2020-10-09 17:43:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：25
+2020-10-09 17:43:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：26
+2020-10-09 17:43:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：27
+2020-10-09 17:43:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：28
+2020-10-09 17:43:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：29
+2020-10-09 17:43:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：30
+2020-10-09 17:43:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：31
+2020-10-09 17:43:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：32
+2020-10-09 17:43:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：33
+2020-10-09 17:44:00,013 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：34
+2020-10-09 17:44:00,720 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 17:44:00,721 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 17:44:00,721 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:44:00,798 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 17:44:00,962 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223664002810000(String), zwcruarpobhj(String), 高虽屈聘(String), 05(String), M(String), 71(Integer), 11(Integer), 4718592(Integer), 33554432(Integer), 0(Integer), 710935195804109528(String), 仇涡僳(String), Y(String), 4(String), 1(String)
+2020-10-09 17:44:00,969 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 17:44:00,969 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:44:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：35
+2020-10-09 17:44:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：36
+2020-10-09 17:44:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：37
+2020-10-09 17:44:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：38
+2020-10-09 17:44:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：39
+2020-10-09 17:44:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：40
+2020-10-09 17:44:35,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：41
+2020-10-09 17:44:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：42
+2020-10-09 17:44:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：43
+2020-10-09 17:44:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：44
+2020-10-09 17:44:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：45
+2020-10-09 17:45:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：46
+2020-10-09 17:45:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：47
+2020-10-09 17:45:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：48
+2020-10-09 17:45:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：49
+2020-10-09 17:45:20,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：50
+2020-10-09 17:45:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：51
+2020-10-09 17:45:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：52
+2020-10-09 17:45:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：53
+2020-10-09 17:45:40,019 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：54
+2020-10-09 17:45:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：55
+2020-10-09 17:45:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：56
+2020-10-09 17:45:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：57
+2020-10-09 17:46:00,008 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：58
+2020-10-09 17:46:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：59
+2020-10-09 17:46:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：60
+2020-10-09 17:46:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：61
+2020-10-09 17:46:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：62
+2020-10-09 17:46:25,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：63
+2020-10-09 17:46:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：64
+2020-10-09 17:46:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：65
+2020-10-09 17:46:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：66
+2020-10-09 17:46:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：67
+2020-10-09 17:46:50,004 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：68
+2020-10-09 17:46:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：69
+2020-10-09 17:47:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：70
+2020-10-09 17:47:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：71
+2020-10-09 17:47:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：72
+2020-10-09 17:47:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：73
+2020-10-09 17:47:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：74
+2020-10-09 17:47:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：75
+2020-10-09 17:47:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：76
+2020-10-09 17:47:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：77
+2020-10-09 17:47:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：78
+2020-10-09 17:47:45,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：79
+2020-10-09 17:47:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：80
+2020-10-09 17:47:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：81
+2020-10-09 17:48:00,007 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：82
+2020-10-09 17:48:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：83
+2020-10-09 17:48:10,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：84
+2020-10-09 17:48:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：85
+2020-10-09 17:48:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：86
+2020-10-09 17:48:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：87
+2020-10-09 17:48:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：88
+2020-10-09 17:48:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：89
+2020-10-09 17:48:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：90
+2020-10-09 17:48:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：91
+2020-10-09 17:48:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：92
+2020-10-09 17:48:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：93
+2020-10-09 17:49:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：94
+2020-10-09 17:49:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：95
+2020-10-09 17:49:10,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：96
+2020-10-09 17:49:15,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：97
+2020-10-09 17:49:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：98
+2020-10-09 17:49:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：99
+2020-10-09 17:49:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：100
+2020-10-09 17:49:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：101
+2020-10-09 17:49:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：102
+2020-10-09 17:49:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：103
+2020-10-09 17:49:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：104
+2020-10-09 17:49:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：105
+2020-10-09 17:50:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：106
+2020-10-09 17:50:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：107
+2020-10-09 17:50:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：108
+2020-10-09 17:50:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：109
+2020-10-09 17:50:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：110
+2020-10-09 17:50:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：111
+2020-10-09 17:50:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：112
+2020-10-09 17:50:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：113
+2020-10-09 17:50:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：114
+2020-10-09 17:50:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：115
+2020-10-09 17:50:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：116
+2020-10-09 17:50:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：117
+2020-10-09 17:51:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 17:51:00,011 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 17:51:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:51:00,013 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：118
+2020-10-09 17:51:00,016 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 17:51:00,021 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223706000310001(String), xjfizkhaqqqgsa(String), 陋丧恬竹(String), 04(String), F(String), 70(Integer), 6(Integer), 5767168(Integer), 41943040(Integer), 128(Integer), 460406197303190474(String), 或波鞍(String), Y(String), 2(String), 3(String)
+2020-10-09 17:51:00,024 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 17:51:00,025 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:51:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：119
+2020-10-09 17:51:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：120
+2020-10-09 17:51:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：121
+2020-10-09 17:51:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：122
+2020-10-09 17:51:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：123
+2020-10-09 17:51:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：124
+2020-10-09 17:51:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：125
+2020-10-09 17:51:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：126
+2020-10-09 17:51:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：127
+2020-10-09 17:51:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：128
+2020-10-09 17:51:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：129
+2020-10-09 17:52:00,013 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：130
+2020-10-09 17:52:05,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：131
+2020-10-09 17:52:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：132
+2020-10-09 17:52:15,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：133
+2020-10-09 17:52:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：134
+2020-10-09 17:52:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：135
+2020-10-09 17:52:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：136
+2020-10-09 17:52:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：137
+2020-10-09 17:52:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：138
+2020-10-09 17:52:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：139
+2020-10-09 17:52:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：140
+2020-10-09 17:52:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：141
+2020-10-09 17:53:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：142
+2020-10-09 17:53:05,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：143
+2020-10-09 17:53:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：144
+2020-10-09 17:53:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：145
+2020-10-09 17:53:20,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：146
+2020-10-09 17:53:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：147
+2020-10-09 17:53:30,065 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：148
+2020-10-09 17:53:35,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：149
+2020-10-09 17:53:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：150
+2020-10-09 17:53:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：151
+2020-10-09 17:53:50,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：152
+2020-10-09 17:53:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：153
+2020-10-09 17:54:00,009 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：154
+2020-10-09 17:54:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：155
+2020-10-09 17:54:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：156
+2020-10-09 17:54:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：157
+2020-10-09 17:54:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：158
+2020-10-09 17:54:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：159
+2020-10-09 17:54:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：160
+2020-10-09 17:54:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：161
+2020-10-09 17:54:40,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：162
+2020-10-09 17:54:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：163
+2020-10-09 17:54:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：164
+2020-10-09 17:54:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：165
+2020-10-09 17:55:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：166
+2020-10-09 17:55:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：167
+2020-10-09 17:55:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：168
+2020-10-09 17:55:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：169
+2020-10-09 17:55:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：170
+2020-10-09 17:55:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：171
+2020-10-09 17:55:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：172
+2020-10-09 17:55:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：173
+2020-10-09 17:55:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：174
+2020-10-09 17:55:45,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：175
+2020-10-09 17:55:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：176
+2020-10-09 17:55:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：177
+2020-10-09 17:56:00,013 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：178
+2020-10-09 17:56:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：179
+2020-10-09 17:56:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：180
+2020-10-09 17:56:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：181
+2020-10-09 17:56:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：182
+2020-10-09 17:56:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：183
+2020-10-09 17:56:30,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：184
+2020-10-09 17:56:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：185
+2020-10-09 17:56:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：186
+2020-10-09 17:56:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：187
+2020-10-09 17:56:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：188
+2020-10-09 17:56:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：189
+2020-10-09 17:57:00,009 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：190
+2020-10-09 17:57:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：191
+2020-10-09 17:57:10,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：192
+2020-10-09 17:57:15,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：193
+2020-10-09 17:57:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：194
+2020-10-09 17:57:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：195
+2020-10-09 17:57:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：196
+2020-10-09 17:57:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：197
+2020-10-09 17:57:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：198
+2020-10-09 17:57:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：199
+2020-10-09 17:57:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：200
+2020-10-09 17:57:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：201
+2020-10-09 17:58:00,009 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 17:58:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 17:58:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 17:58:00,014 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 17:58:00,020 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223748000210002(String), owbpmircmzhxueta(String), 稽敏吁炽(String), 03(String), F(String), 72(Integer), 8(Integer), 5767168(Integer), 33554432(Integer), 64(Integer), 460328193410234812(String), 次况(String), Y(String), 3(String), 2(String)
+2020-10-09 17:58:00,024 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 17:58:00,024 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 17:58:00,025 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：202
+2020-10-09 17:58:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：203
+2020-10-09 17:58:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：204
+2020-10-09 17:58:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：205
+2020-10-09 17:58:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：206
+2020-10-09 17:58:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：207
+2020-10-09 17:58:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：208
+2020-10-09 17:58:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：209
+2020-10-09 17:58:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：210
+2020-10-09 17:58:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：211
+2020-10-09 17:58:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：212
+2020-10-09 17:58:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：213
+2020-10-09 17:59:00,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：214
+2020-10-09 17:59:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：215
+2020-10-09 17:59:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：216
+2020-10-09 17:59:15,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：217
+2020-10-09 17:59:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：218
+2020-10-09 17:59:25,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：219
+2020-10-09 17:59:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：220
+2020-10-09 17:59:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：221
+2020-10-09 17:59:40,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：222
+2020-10-09 17:59:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：223
+2020-10-09 17:59:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：224
+2020-10-09 17:59:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：225
+2020-10-09 18:00:00,011 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 18:00:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 18:00:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 18:00:00,015 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：226
+2020-10-09 18:00:00,016 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 18:00:00,021 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223760000710003(String), fadkzkvrlos(String), 钡热写沽(String), 07(String), F(String), 73(Integer), 11(Integer), 3670016(Integer), 41943040(Integer), 320(Integer), 620201197406080404(String), 嚏蹈罩(String), Y(String), 0(String), 3(String)
+2020-10-09 18:00:00,025 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 18:00:00,025 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 18:00:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：227
+2020-10-09 18:00:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：228
+2020-10-09 18:00:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：229
+2020-10-09 18:00:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：230
+2020-10-09 18:00:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：231
+2020-10-09 18:00:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：232
+2020-10-09 18:00:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：233
+2020-10-09 18:00:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：234
+2020-10-09 18:00:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：235
+2020-10-09 18:00:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：236
+2020-10-09 18:00:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：237
+2020-10-09 18:01:00,005 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：238
+2020-10-09 18:01:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：239
+2020-10-09 18:01:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：240
+2020-10-09 18:01:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：241
+2020-10-09 18:01:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：242
+2020-10-09 18:01:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：243
+2020-10-09 18:01:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：244
+2020-10-09 18:01:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：245
+2020-10-09 18:01:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：246
+2020-10-09 18:01:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：247
+2020-10-09 18:01:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：248
+2020-10-09 18:01:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：249
+2020-10-09 18:02:00,011 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 18:02:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 18:02:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 18:02:00,013 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 18:02:00,016 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223772000810004(String), ielzfjgzwmrtxzz(String), 驮牧些弘(String), 02(String), F(String), 79(Integer), 8(Integer), 4718592(Integer), 29360128(Integer), 256(Integer), 530534200610283229(String), 覆押驯(String), N(String), 3(String), 2(String)
+2020-10-09 18:02:00,019 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 18:02:00,019 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 18:02:00,020 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：250
+2020-10-09 18:02:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：251
+2020-10-09 18:02:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：252
+2020-10-09 18:02:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：253
+2020-10-09 18:02:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：254
+2020-10-09 18:02:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：255
+2020-10-09 18:02:30,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：256
+2020-10-09 18:02:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：257
+2020-10-09 18:02:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：258
+2020-10-09 18:02:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：259
+2020-10-09 18:02:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：260
+2020-10-09 18:02:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：261
+2020-10-09 18:03:00,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：262
+2020-10-09 18:03:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：263
+2020-10-09 18:03:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：264
+2020-10-09 18:03:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：265
+2020-10-09 18:03:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：266
+2020-10-09 18:03:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：267
+2020-10-09 18:03:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：268
+2020-10-09 18:03:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：269
+2020-10-09 18:03:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：270
+2020-10-09 18:03:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：271
+2020-10-09 18:03:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：272
+2020-10-09 18:03:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：273
+2020-10-09 18:04:00,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：274
+2020-10-09 18:04:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：275
+2020-10-09 18:04:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：276
+2020-10-09 18:04:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：277
+2020-10-09 18:04:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：278
+2020-10-09 18:04:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：279
+2020-10-09 18:04:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：280
+2020-10-09 18:04:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：281
+2020-10-09 18:04:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：282
+2020-10-09 18:04:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：283
+2020-10-09 18:04:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：284
+2020-10-09 18:04:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：285
+2020-10-09 18:05:00,004 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：286
+2020-10-09 18:05:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：287
+2020-10-09 18:05:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：288
+2020-10-09 18:05:15,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：289
+2020-10-09 18:05:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：290
+2020-10-09 18:05:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：291
+2020-10-09 18:05:30,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：292
+2020-10-09 18:05:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：293
+2020-10-09 18:05:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：294
+2020-10-09 18:05:45,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：295
+2020-10-09 18:05:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：296
+2020-10-09 18:05:55,008 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：297
+2020-10-09 18:06:00,009 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：298
+2020-10-09 18:06:05,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：299
+2020-10-09 18:06:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：300
+2020-10-09 18:06:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：301
+2020-10-09 18:06:20,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：302
+2020-10-09 18:06:25,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：303
+2020-10-09 18:06:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：304
+2020-10-09 18:06:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：305
+2020-10-09 18:06:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：306
+2020-10-09 18:06:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：307
+2020-10-09 18:06:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：308
+2020-10-09 18:06:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：309
+2020-10-09 18:07:00,010 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：310
+2020-10-09 18:07:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：311
+2020-10-09 18:07:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：312
+2020-10-09 18:07:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：313
+2020-10-09 18:07:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：314
+2020-10-09 18:07:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：315
+2020-10-09 18:07:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：316
+2020-10-09 18:07:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：317
+2020-10-09 18:07:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：318
+2020-10-09 18:07:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：319
+2020-10-09 18:07:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：320
+2020-10-09 18:07:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：321
+2020-10-09 18:08:00,004 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：322
+2020-10-09 18:08:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：323
+2020-10-09 18:08:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：324
+2020-10-09 18:08:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：325
+2020-10-09 18:08:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：326
+2020-10-09 18:08:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：327
+2020-10-09 18:08:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：328
+2020-10-09 18:08:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：329
+2020-10-09 18:08:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：330
+2020-10-09 18:08:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：331
+2020-10-09 18:08:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：332
+2020-10-09 18:08:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：333
+2020-10-09 18:09:00,004 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 18:09:00,004 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 18:09:00,004 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 18:09:00,005 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 18:09:00,008 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223814000110005(String), fpklldjjscrhxk(String), 神焦燃负(String), 01(String), F(String), 76(Integer), 12(Integer), 5242880(Integer), 25165824(Integer), 384(Integer), 122128195202192280(String), 篓竣(String), Y(String), 4(String), 2(String)
+2020-10-09 18:09:00,009 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：334
+2020-10-09 18:09:00,011 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 18:09:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 18:09:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：335
+2020-10-09 18:09:10,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：336
+2020-10-09 18:09:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：337
+2020-10-09 18:09:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：338
+2020-10-09 18:09:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：339
+2020-10-09 18:09:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：340
+2020-10-09 18:09:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：341
+2020-10-09 18:09:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：342
+2020-10-09 18:09:45,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：343
+2020-10-09 18:09:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：344
+2020-10-09 18:09:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：345
+2020-10-09 18:10:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：346
+2020-10-09 18:10:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：347
+2020-10-09 18:10:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：348
+2020-10-09 18:10:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：349
+2020-10-09 18:10:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：350
+2020-10-09 18:10:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：351
+2020-10-09 18:10:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：352
+2020-10-09 18:10:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：353
+2020-10-09 18:10:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：354
+2020-10-09 18:10:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：355
+2020-10-09 18:10:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：356
+2020-10-09 18:10:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：357
+2020-10-09 18:11:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：358
+2020-10-09 18:11:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：359
+2020-10-09 18:11:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：360
+2020-10-09 18:11:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：361
+2020-10-09 18:11:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：362
+2020-10-09 18:11:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：363
+2020-10-09 18:11:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：364
+2020-10-09 18:11:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：365
+2020-10-09 18:11:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：366
+2020-10-09 18:11:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：367
+2020-10-09 18:11:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：368
+2020-10-09 18:11:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：369
+2020-10-09 18:12:00,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：370
+2020-10-09 18:12:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：371
+2020-10-09 18:12:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：372
+2020-10-09 18:12:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：373
+2020-10-09 18:12:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：374
+2020-10-09 18:12:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：375
+2020-10-09 18:12:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：376
+2020-10-09 18:12:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：377
+2020-10-09 18:12:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：378
+2020-10-09 18:12:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：379
+2020-10-09 18:12:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：380
+2020-10-09 18:12:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：381
+2020-10-09 18:13:00,009 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：382
+2020-10-09 18:13:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：383
+2020-10-09 18:13:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：384
+2020-10-09 18:13:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：385
+2020-10-09 18:13:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：386
+2020-10-09 18:13:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：387
+2020-10-09 18:13:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：388
+2020-10-09 18:13:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：389
+2020-10-09 18:13:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：390
+2020-10-09 18:13:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：391
+2020-10-09 18:13:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：392
+2020-10-09 18:13:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：393
+2020-10-09 18:14:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：394
+2020-10-09 18:14:05,008 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：395
+2020-10-09 18:14:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：396
+2020-10-09 18:14:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：397
+2020-10-09 18:14:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：398
+2020-10-09 18:14:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：399
+2020-10-09 18:14:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：400
+2020-10-09 18:14:35,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：401
+2020-10-09 18:14:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：402
+2020-10-09 18:14:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：403
+2020-10-09 18:14:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：404
+2020-10-09 18:14:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：405
+2020-10-09 18:15:00,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：406
+2020-10-09 18:15:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：407
+2020-10-09 18:15:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：408
+2020-10-09 18:15:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：409
+2020-10-09 18:15:20,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：410
+2020-10-09 18:15:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：411
+2020-10-09 18:15:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：412
+2020-10-09 18:15:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：413
+2020-10-09 18:15:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：414
+2020-10-09 18:15:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：415
+2020-10-09 18:15:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：416
+2020-10-09 18:15:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：417
+2020-10-09 18:16:00,013 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 18:16:00,014 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 18:16:00,014 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 18:16:00,015 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 18:16:00,015 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：418
+2020-10-09 18:16:00,017 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223856001010006(String), shcxifewidwk(String), 慢硅布哭(String), 02(String), M(String), 73(Integer), 12(Integer), 4718592(Integer), 37748736(Integer), 384(Integer), 430408193601273200(String), 豫潜(String), Y(String), 2(String), 1(String)
+2020-10-09 18:16:00,020 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 18:16:00,022 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 18:16:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：419
+2020-10-09 18:16:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：420
+2020-10-09 18:16:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：421
+2020-10-09 18:16:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：422
+2020-10-09 18:16:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：423
+2020-10-09 18:16:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：424
+2020-10-09 18:16:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：425
+2020-10-09 18:16:40,012 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：426
+2020-10-09 18:16:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：427
+2020-10-09 18:16:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：428
+2020-10-09 18:16:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：429
+2020-10-09 18:17:00,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：430
+2020-10-09 18:17:05,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：431
+2020-10-09 18:17:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：432
+2020-10-09 18:17:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：433
+2020-10-09 18:17:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：434
+2020-10-09 18:17:25,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：435
+2020-10-09 18:17:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：436
+2020-10-09 18:17:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：437
+2020-10-09 18:17:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：438
+2020-10-09 18:17:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：439
+2020-10-09 18:17:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：440
+2020-10-09 18:17:55,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：441
+2020-10-09 18:18:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：442
+2020-10-09 18:18:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：443
+2020-10-09 18:18:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：444
+2020-10-09 18:18:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：445
+2020-10-09 18:18:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：446
+2020-10-09 18:18:25,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：447
+2020-10-09 18:18:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：448
+2020-10-09 18:18:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：449
+2020-10-09 18:18:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：450
+2020-10-09 18:18:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：451
+2020-10-09 18:18:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：452
+2020-10-09 18:18:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：453
+2020-10-09 18:19:00,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：454
+2020-10-09 18:19:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：455
+2020-10-09 18:19:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：456
+2020-10-09 18:19:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：457
+2020-10-09 18:19:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：458
+2020-10-09 18:19:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：459
+2020-10-09 18:19:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：460
+2020-10-09 18:19:35,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：461
+2020-10-09 18:19:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：462
+2020-10-09 18:19:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：463
+2020-10-09 18:19:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：464
+2020-10-09 18:19:55,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：465
+2020-10-09 18:20:00,024 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：466
+2020-10-09 18:20:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：467
+2020-10-09 18:20:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：468
+2020-10-09 18:20:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：469
+2020-10-09 18:20:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：470
+2020-10-09 18:20:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：471
+2020-10-09 18:20:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：472
+2020-10-09 18:20:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：473
+2020-10-09 18:20:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：474
+2020-10-09 18:20:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：475
+2020-10-09 18:20:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：476
+2020-10-09 18:20:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：477
+2020-10-09 18:21:00,005 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：478
+2020-10-09 18:21:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：479
+2020-10-09 18:21:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：480
+2020-10-09 18:21:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：481
+2020-10-09 18:21:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：482
+2020-10-09 18:21:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：483
+2020-10-09 18:21:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：484
+2020-10-09 18:21:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：485
+2020-10-09 18:21:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：486
+2020-10-09 18:21:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：487
+2020-10-09 18:21:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：488
+2020-10-09 18:21:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：489
+2020-10-09 18:22:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：490
+2020-10-09 18:22:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：491
+2020-10-09 18:22:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：492
+2020-10-09 18:22:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：493
+2020-10-09 18:22:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：494
+2020-10-09 18:22:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：495
+2020-10-09 18:22:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：496
+2020-10-09 18:22:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：497
+2020-10-09 18:22:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：498
+2020-10-09 18:22:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：499
+2020-10-09 18:22:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：500
+2020-10-09 18:22:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：501
+2020-10-09 18:23:00,015 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 18:23:00,016 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 18:23:00,016 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 18:23:00,020 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：502
+2020-10-09 18:23:00,022 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 18:23:00,026 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223898000910007(String), ekpovccfxzexzgs(String), 栗氓戳话(String), 03(String), F(String), 76(Integer), 0(Integer), 4194304(Integer), 33554432(Integer), 64(Integer), 322610195603049937(String), 凶碘橙(String), Y(String), 3(String), 2(String)
+2020-10-09 18:23:00,030 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 18:23:00,030 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 18:23:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：503
+2020-10-09 18:23:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：504
+2020-10-09 18:23:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：505
+2020-10-09 18:23:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：506
+2020-10-09 18:23:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：507
+2020-10-09 18:23:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：508
+2020-10-09 18:23:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：509
+2020-10-09 18:23:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：510
+2020-10-09 18:23:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：511
+2020-10-09 18:23:50,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：512
+2020-10-09 18:23:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：513
+2020-10-09 18:24:00,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：514
+2020-10-09 18:24:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：515
+2020-10-09 18:24:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：516
+2020-10-09 18:24:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：517
+2020-10-09 18:24:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：518
+2020-10-09 18:24:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：519
+2020-10-09 18:24:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：520
+2020-10-09 18:24:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：521
+2020-10-09 18:24:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：522
+2020-10-09 18:24:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：523
+2020-10-09 18:24:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：524
+2020-10-09 18:24:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：525
+2020-10-09 18:25:00,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：526
+2020-10-09 18:25:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：527
+2020-10-09 18:25:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：528
+2020-10-09 18:25:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：529
+2020-10-09 18:25:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：530
+2020-10-09 18:25:25,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：531
+2020-10-09 18:25:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：532
+2020-10-09 18:25:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：533
+2020-10-09 18:25:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：534
+2020-10-09 18:25:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：535
+2020-10-09 18:25:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：536
+2020-10-09 18:25:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：537
+2020-10-09 18:26:00,008 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：538
+2020-10-09 18:26:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：539
+2020-10-09 18:26:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：540
+2020-10-09 18:26:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：541
+2020-10-09 18:26:20,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：542
+2020-10-09 18:26:25,003 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：543
+2020-10-09 18:26:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：544
+2020-10-09 18:26:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：545
+2020-10-09 18:26:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：546
+2020-10-09 18:26:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：547
+2020-10-09 18:26:50,000 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：548
+2020-10-09 18:26:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：549
+2020-10-09 18:27:00,006 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：550
+2020-10-09 18:27:05,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：551
+2020-10-09 18:27:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：552
+2020-10-09 18:27:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：553
+2020-10-09 18:27:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：554
+2020-10-09 18:27:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：555
+2020-10-09 18:27:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：556
+2020-10-09 18:27:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：557
+2020-10-09 18:27:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：558
+2020-10-09 18:27:45,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：559
+2020-10-09 18:27:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：560
+2020-10-09 18:27:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：561
+2020-10-09 18:28:00,007 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：562
+2020-10-09 18:28:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：563
+2020-10-09 18:28:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：564
+2020-10-09 18:28:15,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：565
+2020-10-09 18:28:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：566
+2020-10-09 18:28:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：567
+2020-10-09 18:28:30,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：568
+2020-10-09 18:28:35,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：569
+2020-10-09 18:28:40,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：570
+2020-10-09 18:28:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：571
+2020-10-09 18:28:50,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：572
+2020-10-09 18:28:55,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：573
+2020-10-09 18:29:00,004 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：574
+2020-10-09 18:29:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：575
+2020-10-09 18:29:10,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：576
+2020-10-09 18:29:15,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：577
+2020-10-09 18:29:20,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：578
+2020-10-09 18:29:25,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：579
+2020-10-09 18:29:30,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：580
+2020-10-09 18:29:35,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：581
+2020-10-09 18:29:40,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：582
+2020-10-09 18:29:45,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：583
+2020-10-09 18:29:50,016 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：584
+2020-10-09 18:29:55,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：585
+2020-10-09 18:30:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:26) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-10-09 18:30:00,011 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:28) INFO  --> now the url is:
+2020-10-09 18:30:00,012 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:34) INFO  --> point before...
+2020-10-09 18:30:00,014 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-10-09 18:30:00,019 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160223940000310008(String), irtvvbvgoagm(String), 鞘都著镣(String), 05(String), F(String), 73(Integer), 11(Integer), 3670016(Integer), 41943040(Integer), 192(Integer), 140730194307293067(String), 税史答(String), Y(String), 5(String), 3(String)
+2020-10-09 18:30:00,022 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-10-09 18:30:00,023 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:38) INFO  --> point after...
+2020-10-09 18:30:00,024 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：586
+2020-10-09 18:30:05,002 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：587
+2020-10-09 18:30:10,001 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：588
+2020-10-09 18:30:15,008 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：589
+2020-10-09 18:30:20,004 com.yaof.quartz.job.TestJob [pool-1-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：590

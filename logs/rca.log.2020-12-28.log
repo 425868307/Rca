@@ -1,0 +1,380 @@
+2020-12-28 16:47:13,379 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:48) INFO  --> Starting RecordClearAideApplication on yaofang with PID 10100 (E:\workspace_winning\RecordClearAide\target\classes started by Administrator in E:\workspace_winning\RecordClearAide)
+2020-12-28 16:47:13,385 com.yaof.RecordClearAideApplication [main] (SpringApplication.java:597) INFO  --> The following profiles are active: dev
+2020-12-28 16:47:13,510 org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] (AbstractApplicationContext.java:583) INFO  --> Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14d14731: startup date [Mon Dec 28 16:47:13 CST 2020]; root of context hierarchy
+2020-12-28 16:47:16,070 org.springframework.beans.factory.xml.XmlBeanDefinitionReader [main] (XmlBeanDefinitionReader.java:317) INFO  --> Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2020-12-28 16:47:17,234 org.mybatis.spring.mapper.ClassPathMapperScanner [main] (ClassPathMapperScanner.java:166) WARN  --> No MyBatis mapper was found in '[com.yaof]' package. Please check your configuration.
+2020-12-28 16:47:17,983 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#65bad087' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 16:47:18,139 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 16:47:18,149 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean '(inner bean)#3453acd2' of type [org.springframework.aop.aspectj.AspectJAfterAdvice] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 16:47:18,151 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' of type [org.springframework.aop.aspectj.AspectJPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 16:47:18,235 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:327) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b805fef1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 16:47:19,214 org.eclipse.jetty.util.log [main] (Log.java:193) INFO  --> Logging initialized @8016ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-12-28 16:47:19,531 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactory [main] (JettyEmbeddedServletContainerFactory.java:177) INFO  --> Server initialized with port: 8088
+2020-12-28 16:47:19,534 org.eclipse.jetty.server.Server [main] (Server.java:374) INFO  --> jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_172-b11
+2020-12-28 16:47:19,786 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:365) INFO  --> DefaultSessionIdManager workerName=node0
+2020-12-28 16:47:19,787 org.eclipse.jetty.server.session [main] (DefaultSessionIdManager.java:370) INFO  --> No SessionScavenger set, using defaults
+2020-12-28 16:47:19,793 org.eclipse.jetty.server.session [main] (HouseKeeper.java:149) INFO  --> node0 Scavenging every 660000ms
+2020-12-28 16:47:19,907 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2020-12-28 16:47:20,563 org.apache.jasper.servlet.TldScanner [main] (DirectJDKLog.java:180) INFO  --> At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-12-28 16:47:20,590 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring embedded WebApplicationContext
+2020-12-28 16:47:20,591 org.springframework.web.context.ContextLoader [main] (EmbeddedWebApplicationContext.java:276) INFO  --> Root WebApplicationContext: initialization completed in 7086 ms
+2020-12-28 16:47:21,590 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-28 16:47:21,590 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-28 16:47:21,591 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-12-28 16:47:21,591 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:258) INFO  --> Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-28 16:47:21,591 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'sessionFilter' to urls: [/*]
+2020-12-28 16:47:21,592 org.springframework.boot.web.servlet.FilterRegistrationBean [main] (AbstractFilterRegistrationBean.java:271) INFO  --> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-12-28 16:47:21,592 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'dispatcherServlet' to [/]
+2020-12-28 16:47:21,594 org.springframework.boot.web.servlet.ServletRegistrationBean [main] (ServletRegistrationBean.java:190) INFO  --> Mapping servlet: 'statViewServlet' to [/druid/*]
+2020-12-28 16:47:21,602 org.eclipse.jetty.server.handler.ContextHandler [main] (ContextHandler.java:788) INFO  --> Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@708dfe10{/rca,[file:///E:/workspace_winning/RecordClearAide/src/main/webapp/, jar:file:/D:/dev/maven/maven_31/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-12-28 16:47:21,603 org.eclipse.jetty.server.Server [main] (Server.java:411) INFO  --> Started @10408ms
+2020-12-28 16:47:21,922 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-1} inited
+2020-12-28 16:47:24,560 com.alibaba.druid.pool.DruidDataSource [main] (DruidDataSource.java:889) INFO  --> {dataSource-2} inited
+2020-12-28 16:47:27,267 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/addAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.addAccountDetail(java.util.List<com.yaof.pojo.AmmountSum>,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,270 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryDayDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryDayDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,271 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/queryAccountDetail],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.AmmountSum>> com.yaof.controller.AmmountController.queryAccountDetail(com.yaof.pojo.AmmountSum,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,272 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/saveDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.saveDayDetailById(com.yaof.pojo.AmmountSum)
+2020-12-28 16:47:27,273 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/user/deleteDayDetailById],methods=[POST]}" onto public com.yaof.pojo.utils.Response<java.lang.String> com.yaof.controller.AmmountController.deleteDayDetailById(com.yaof.pojo.AmmountSum)
+2020-12-28 16:47:27,274 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/index]}" onto public java.lang.String com.yaof.controller.GameRoleController.index(java.lang.String)
+2020-12-28 16:47:27,274 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/selectNumber],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.selectNumber()
+2020-12-28 16:47:27,275 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertRoleInfo(com.yaof.pojo.GameRole,javax.servlet.http.HttpServletRequest)
+2020-12-28 16:47:27,275 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/insertBatchRoleInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response<com.alibaba.fastjson.JSONObject> com.yaof.controller.GameRoleController.insertBatchRoleInfo()
+2020-12-28 16:47:27,278 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/check],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.yaof.controller.TestController.check()
+2020-12-28 16:47:27,284 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/register],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.register(com.yaof.pojo.User)
+2020-12-28 16:47:27,285 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getUserInfo],methods=[POST]}" onto public java.lang.String com.yaof.controller.UserController.getUserInfo(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-12-28 16:47:27,285 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePassword],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePassword(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,286 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/checkAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(java.lang.String)
+2020-12-28 16:47:27,286 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/logout],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.checkAccount(javax.servlet.http.HttpServletRequest)
+2020-12-28 16:47:27,287 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/getAccount],methods=[POST]}" onto private java.lang.String com.yaof.controller.UserController.getAccount(javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,288 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/login],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.login(com.yaof.pojo.User,javax.servlet.http.HttpServletRequest)
+2020-12-28 16:47:27,288 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/saveUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.saveUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,289 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/addRcaUserInfo],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.addRcaUserInfo(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,289 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/queryAccountByPower],methods=[POST]}" onto private com.yaof.pojo.utils.Response<java.util.List<com.yaof.pojo.User>> com.yaof.controller.UserController.queryAccountByPower(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,290 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/deleteAccountById],methods=[POST]}" onto private com.yaof.pojo.utils.Response com.yaof.controller.UserController.deleteAccountById(java.lang.String)
+2020-12-28 16:47:27,291 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/updatePasswordByAccount],methods=[POST]}" onto public com.yaof.pojo.utils.Response com.yaof.controller.UserController.updatePasswordByAccount(com.yaof.pojo.User,javax.servlet.http.HttpSession)
+2020-12-28 16:47:27,296 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-12-28 16:47:27,298 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-12-28 16:47:27,300 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-12-28 16:47:27,304 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-12-28 16:47:27,305 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] (AbstractHandlerMethodMapping.java:543) INFO  --> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-12-28 16:47:27,841 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-28 16:47:27,900 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:165) INFO  --> Initializing ExecutorService  'executor'
+2020-12-28 16:47:28,090 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1172) INFO  --> Using default implementation for ThreadExecutor
+2020-12-28 16:47:28,111 org.quartz.core.SchedulerSignalerImpl [main] (SchedulerSignalerImpl.java:61) INFO  --> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-12-28 16:47:28,111 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:240) INFO  --> Quartz Scheduler v.2.2.3 created.
+2020-12-28 16:47:28,112 org.quartz.simpl.RAMJobStore [main] (RAMJobStore.java:155) INFO  --> RAMJobStore initialized.
+2020-12-28 16:47:28,114 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:305) INFO  --> Scheduler meta-data: Quartz Scheduler (v2.2.3) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-12-28 16:47:28,114 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1327) INFO  --> Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2020-12-28 16:47:28,114 org.quartz.impl.StdSchedulerFactory [main] (StdSchedulerFactory.java:1331) INFO  --> Quartz scheduler version: 2.2.3
+2020-12-28 16:47:28,117 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:2311) INFO  --> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@d17d554
+2020-12-28 16:47:28,851 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] (RequestMappingHandlerAdapter.java:534) INFO  --> Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14d14731: startup date [Mon Dec 28 16:47:13 CST 2020]; root of context hierarchy
+2020-12-28 16:47:29,036 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-28 16:47:29,036 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-28 16:47:29,220 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] (AbstractUrlHandlerMapping.java:362) INFO  --> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-28 16:47:32,005 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:431) INFO  --> Registering beans for JMX exposure on startup
+2020-12-28 16:47:32,009 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2020-12-28 16:47:32,010 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2020-12-28 16:47:32,013 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:918) INFO  --> Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-12-28 16:47:32,031 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'masterDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=masterDataSource,type=DruidDataSource]
+2020-12-28 16:47:32,034 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2020-12-28 16:47:32,044 org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] (MBeanExporter.java:672) INFO  --> Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-12-28 16:47:32,060 org.springframework.context.support.DefaultLifecycleProcessor [main] (DefaultLifecycleProcessor.java:341) INFO  --> Starting beans in phase 2147483647
+2020-12-28 16:47:32,061 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2020-12-28 16:47:32,209 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2020-12-28 16:47:32,339 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2020-12-28 16:47:33,062 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] (CachingOperationNameGenerator.java:40) INFO  --> Generating unique operation named: checkAccountUsingPOST_1
+2020-12-28 16:47:33,236 org.springframework.scheduling.quartz.SchedulerFactoryBean [main] (SchedulerFactoryBean.java:671) INFO  --> Starting Quartz Scheduler now
+2020-12-28 16:47:33,241 org.quartz.core.QuartzScheduler [main] (QuartzScheduler.java:575) INFO  --> Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2020-12-28 16:47:33,253 org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor [main] (ScheduledAnnotationBeanPostProcessor.java:268) INFO  --> No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-12-28 16:47:33,308 org.eclipse.jetty.server.handler.ContextHandler.application [main] (ContextHandler.java:2221) INFO  --> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-12-28 16:47:33,308 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:489) INFO  --> FrameworkServlet 'dispatcherServlet': initialization started
+2020-12-28 16:47:33,363 org.springframework.web.servlet.DispatcherServlet [main] (FrameworkServlet.java:508) INFO  --> FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2020-12-28 16:47:33,873 org.eclipse.jetty.server.AbstractConnector [main] (AbstractConnector.java:289) INFO  --> Started ServerConnector@18989e0{HTTP/1.1,[http/1.1]}{0.0.0.0:8088}
+2020-12-28 16:47:33,874 org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainer [main] (JettyEmbeddedServletContainer.java:155) INFO  --> Jetty started on port(s) 8088 (http/1.1)
+2020-12-28 16:47:33,887 com.yaof.RecordClearAideApplication [main] (StartupInfoLogger.java:57) INFO  --> Started RecordClearAideApplication in 21.692 seconds (JVM running for 22.692)
+2020-12-28 16:47:33,887 com.yaof.RecordClearAideApplication [main] (RecordClearAideApplication.java:21) INFO  --> RecordClearAideApplication start success.
+2020-12-28 16:47:56,559 com.yaof.controller.UserController [qtp1178270318-22] (UserController.java:56) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-12-28 16:47:57,583 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:47:57,584 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:47:57,634 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:47:57,665 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-12-28 16:47:57,729 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:47:57,733 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:00,637 com.yaof.interceptor.WebAppConfig [qtp1178270318-17] (WebAppConfig.java:54) INFO  --> /rca/user/queryAccountDetail============================================
+2020-12-28 16:48:00,638 com.yaof.interceptor.WebAppConfig [qtp1178270318-17] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:48:00,651 com.yaof.controller.AmmountController [qtp1178270318-17] (AmmountController.java:42) INFO  --> 根据用户Id查询账户信息，参数:{"cost":0.0,"income":0.0,"limit":0,"month":"12","sub":0.0,"type":"day","userId":"1","year":"2020"}
+2020-12-28 16:48:00,659 com.yaof.point.TransactionDemo [qtp1178270318-17] (TransactionDemo.java:29) INFO  --> now the url is:/rca/user/queryAccountDetail
+2020-12-28 16:48:00,660 com.yaof.point.TransactionDemo [qtp1178270318-17] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:00,835 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-17] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select year, month, day, sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub from (select year(happen_date) year, month(happen_date) month, day(happen_date) day, cost, income from account_detail where user_id = ? and year(happen_date) = ? and month(happen_date) = ? ) a GROUP BY year,month,day order by year desc, month desc, day desc 
+2020-12-28 16:48:01,098 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-17] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 1(String), 2020(String), 12(String)
+2020-12-28 16:48:01,117 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-17] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-12-28 16:48:01,118 com.yaof.point.TransactionDemo [qtp1178270318-17] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:01,121 com.yaof.controller.AmmountController [qtp1178270318-17] (AmmountController.java:44) INFO  --> 根据用户Id查询账户信息，返回结果:[]
+2020-12-28 16:48:21,323 com.yaof.interceptor.WebAppConfig [qtp1178270318-39] (WebAppConfig.java:54) INFO  --> /rca/user/queryAccountDetail============================================
+2020-12-28 16:48:21,326 com.yaof.interceptor.WebAppConfig [qtp1178270318-39] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:48:21,327 com.yaof.controller.AmmountController [qtp1178270318-39] (AmmountController.java:42) INFO  --> 根据用户Id查询账户信息，参数:{"cost":0.0,"income":0.0,"limit":0,"month":"12","sub":0.0,"type":"day","userId":"1","year":"2020"}
+2020-12-28 16:48:21,328 com.yaof.point.TransactionDemo [qtp1178270318-39] (TransactionDemo.java:29) INFO  --> now the url is:/rca/user/queryAccountDetail
+2020-12-28 16:48:21,328 com.yaof.point.TransactionDemo [qtp1178270318-39] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:21,330 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-39] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select year, month, day, sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub from (select year(happen_date) year, month(happen_date) month, day(happen_date) day, cost, income from account_detail where user_id = ? and year(happen_date) = ? and month(happen_date) = ? ) a GROUP BY year,month,day order by year desc, month desc, day desc 
+2020-12-28 16:48:21,333 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-39] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 1(String), 2020(String), 12(String)
+2020-12-28 16:48:21,336 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-39] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-12-28 16:48:21,339 com.yaof.point.TransactionDemo [qtp1178270318-39] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:21,342 com.yaof.controller.AmmountController [qtp1178270318-39] (AmmountController.java:44) INFO  --> 根据用户Id查询账户信息，返回结果:[]
+2020-12-28 16:48:45,314 com.yaof.controller.UserController [qtp1178270318-19] (UserController.java:108) INFO  --> 检查此账号是否已经被注册请求参数:yaofang
+2020-12-28 16:48:45,315 com.yaof.service.impl.UserServiceImpl [qtp1178270318-19] (UserServiceImpl.java:47) INFO  --> service - isAccountExist query begin
+2020-12-28 16:48:45,315 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:45,316 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:45,320 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:45,321 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:45,330 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:45,331 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:45,332 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:45,332 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:45,333 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:45,334 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:45,337 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:45,338 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:45,338 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:45,338 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:45,339 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:45,340 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:45,342 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:45,343 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:45,344 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:45,344 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:45,345 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:45,346 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:45,348 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:45,349 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:45,349 com.yaof.service.impl.UserServiceImpl [qtp1178270318-19] (UserServiceImpl.java:52) INFO  --> service - isAccountExist query end
+2020-12-28 16:48:47,919 com.yaof.interceptor.WebAppConfig [qtp1178270318-22] (WebAppConfig.java:54) INFO  --> /rca/getAccount============================================
+2020-12-28 16:48:47,919 com.yaof.interceptor.WebAppConfig [qtp1178270318-22] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:48:47,930 com.yaof.controller.UserController [qtp1178270318-19] (UserController.java:56) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-12-28 16:48:48,930 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:48:48,931 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:48,932 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:48:48,934 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-12-28 16:48:48,939 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:48,940 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:48,951 com.yaof.interceptor.WebAppConfig [qtp1178270318-22] (WebAppConfig.java:54) INFO  --> /rca/queryAccountByPower============================================
+2020-12-28 16:48:48,951 com.yaof.interceptor.WebAppConfig [qtp1178270318-22] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:48:48,953 com.yaof.service.impl.UserServiceImpl [qtp1178270318-22] (UserServiceImpl.java:104) INFO  --> ---------
+2020-12-28 16:48:48,954 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:29) INFO  --> now the url is:/rca/queryAccountByPower
+2020-12-28 16:48:48,954 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:48,956 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, password, age, name, power, birthdate, sex, addr, phone, email from rca_user where power = ? 
+2020-12-28 16:48:48,957 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 9(String)
+2020-12-28 16:48:48,962 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 7
+2020-12-28 16:48:48,964 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:50,989 com.yaof.controller.UserController [qtp1178270318-22] (UserController.java:108) INFO  --> 检查此账号是否已经被注册请求参数:yaofang
+2020-12-28 16:48:50,990 com.yaof.service.impl.UserServiceImpl [qtp1178270318-22] (UserServiceImpl.java:47) INFO  --> service - isAccountExist query begin
+2020-12-28 16:48:50,991 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:50,992 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:50,993 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:50,994 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:50,998 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:50,999 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:51,000 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:51,001 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:51,004 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:51,006 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:51,008 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:51,009 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:51,010 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:51,010 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:51,010 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:51,011 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:51,014 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:51,015 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:51,016 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:48:51,016 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:51,017 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:48:51,018 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:48:51,020 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-22] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:51,021 com.yaof.point.TransactionDemo [qtp1178270318-22] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:51,022 com.yaof.service.impl.UserServiceImpl [qtp1178270318-22] (UserServiceImpl.java:52) INFO  --> service - isAccountExist query end
+2020-12-28 16:48:53,637 com.yaof.interceptor.WebAppConfig [qtp1178270318-19] (WebAppConfig.java:54) INFO  --> /rca/getAccount============================================
+2020-12-28 16:48:53,637 com.yaof.interceptor.WebAppConfig [qtp1178270318-19] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:48:53,649 com.yaof.controller.UserController [qtp1178270318-23] (UserController.java:56) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-12-28 16:48:54,650 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:48:54,650 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:54,650 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:48:54,651 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-12-28 16:48:54,653 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:48:54,654 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:48:54,660 com.yaof.interceptor.WebAppConfig [qtp1178270318-19] (WebAppConfig.java:54) INFO  --> /rca/queryAccountByPower============================================
+2020-12-28 16:48:54,661 com.yaof.interceptor.WebAppConfig [qtp1178270318-19] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:48:54,661 com.yaof.service.impl.UserServiceImpl [qtp1178270318-19] (UserServiceImpl.java:104) INFO  --> ---------
+2020-12-28 16:48:54,662 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:29) INFO  --> now the url is:/rca/queryAccountByPower
+2020-12-28 16:48:54,662 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:48:54,663 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, password, age, name, power, birthdate, sex, addr, phone, email from rca_user where power = ? 
+2020-12-28 16:48:54,664 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 9(String)
+2020-12-28 16:48:54,669 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-19] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 7
+2020-12-28 16:48:54,670 com.yaof.point.TransactionDemo [qtp1178270318-19] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:50:00,003 com.yaof.quartz.job.TestJob [pool-2-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：1
+2020-12-28 16:50:42,267 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:54) INFO  --> /rca/logout============================================
+2020-12-28 16:50:42,267 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:50:44,947 com.yaof.controller.UserController [qtp1178270318-23] (UserController.java:56) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"123456"}
+2020-12-28 16:50:45,948 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:50:45,949 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:50:45,950 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:50:45,952 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 123456(String)
+2020-12-28 16:50:45,954 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-12-28 16:50:45,957 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:50:45,957 com.yaof.controller.UserController [qtp1178270318-23] (UserController.java:72) INFO  --> 登陆验证完成。
+2020-12-28 16:50:58,779 com.yaof.controller.UserController [qtp1178270318-38] (UserController.java:56) INFO  --> 请求参数:{"account":"yaofang","id":0,"password":"12345678"}
+2020-12-28 16:50:59,781 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:50:59,787 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:50:59,787 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:50:59,788 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String), 12345678(String)
+2020-12-28 16:50:59,790 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:50:59,791 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:00,059 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:27) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-12-28 16:51:00,059 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:29) INFO  --> now the url is:
+2020-12-28 16:51:00,059 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:00,064 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-12-28 16:51:00,077 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160914546002810000(String), oogifbquvxvn(String), 碌门泥匙(String), 06(String), F(String), 70(Integer), 10(Integer), 4194304(Integer), 37748736(Integer), 0(Integer), 810708193307159786(String), 妮纤(String), Y(String), 5(String), 1(String)
+2020-12-28 16:51:00,090 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-12-28 16:51:00,090 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:01,329 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:54) INFO  --> /rca/user/queryAccountDetail============================================
+2020-12-28 16:51:01,330 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:51:01,332 com.yaof.controller.AmmountController [qtp1178270318-23] (AmmountController.java:42) INFO  --> 根据用户Id查询账户信息，参数:{"cost":0.0,"income":0.0,"limit":0,"month":"12","sub":0.0,"type":"day","userId":"1","year":"2020"}
+2020-12-28 16:51:01,332 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/user/queryAccountDetail
+2020-12-28 16:51:01,333 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:01,337 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select year, month, day, sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub from (select year(happen_date) year, month(happen_date) month, day(happen_date) day, cost, income from account_detail where user_id = ? and year(happen_date) = ? and month(happen_date) = ? ) a GROUP BY year,month,day order by year desc, month desc, day desc 
+2020-12-28 16:51:01,338 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 1(String), 2020(String), 12(String)
+2020-12-28 16:51:01,341 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-12-28 16:51:01,342 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:01,342 com.yaof.controller.AmmountController [qtp1178270318-23] (AmmountController.java:44) INFO  --> 根据用户Id查询账户信息，返回结果:[]
+2020-12-28 16:51:36,197 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:54) INFO  --> /rca/logout============================================
+2020-12-28 16:51:36,197 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:51:41,236 com.yaof.controller.UserController [qtp1178270318-23] (UserController.java:56) INFO  --> 请求参数:{"account":"test","id":0,"password":"123456"}
+2020-12-28 16:51:42,237 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:51:42,238 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:42,239 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:51:42,241 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: test(String), 123456(String)
+2020-12-28 16:51:42,247 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:51:42,249 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:43,524 com.yaof.interceptor.WebAppConfig [qtp1178270318-41] (WebAppConfig.java:54) INFO  --> /rca/user/queryAccountDetail============================================
+2020-12-28 16:51:43,525 com.yaof.interceptor.WebAppConfig [qtp1178270318-41] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:51:43,528 com.yaof.controller.AmmountController [qtp1178270318-41] (AmmountController.java:42) INFO  --> 根据用户Id查询账户信息，参数:{"cost":0.0,"income":0.0,"limit":0,"month":"12","sub":0.0,"type":"day","userId":"2","year":"2020"}
+2020-12-28 16:51:43,532 com.yaof.point.TransactionDemo [qtp1178270318-41] (TransactionDemo.java:29) INFO  --> now the url is:/rca/user/queryAccountDetail
+2020-12-28 16:51:43,532 com.yaof.point.TransactionDemo [qtp1178270318-41] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:43,534 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-41] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select year, month, day, sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub from (select year(happen_date) year, month(happen_date) month, day(happen_date) day, cost, income from account_detail where user_id = ? and year(happen_date) = ? and month(happen_date) = ? ) a GROUP BY year,month,day order by year desc, month desc, day desc 
+2020-12-28 16:51:43,536 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-41] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 2(String), 2020(String), 12(String)
+2020-12-28 16:51:43,538 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-41] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-12-28 16:51:43,540 com.yaof.point.TransactionDemo [qtp1178270318-41] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:43,540 com.yaof.controller.AmmountController [qtp1178270318-41] (AmmountController.java:44) INFO  --> 根据用户Id查询账户信息，返回结果:[]
+2020-12-28 16:51:47,822 com.yaof.controller.UserController [qtp1178270318-23] (UserController.java:108) INFO  --> 检查此账号是否已经被注册请求参数:yaofang
+2020-12-28 16:51:47,823 com.yaof.service.impl.UserServiceImpl [qtp1178270318-23] (UserServiceImpl.java:47) INFO  --> service - isAccountExist query begin
+2020-12-28 16:51:47,824 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:51:47,825 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:47,829 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:51:47,832 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:51:47,842 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:51:47,843 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:47,844 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:51:47,845 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:47,846 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:51:47,847 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:51:47,851 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:51:47,852 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:47,852 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:51:47,853 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:47,854 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:51:47,854 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:51:47,857 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:51:47,858 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:47,858 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:51:47,858 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:47,859 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:51:47,860 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:51:47,863 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:51:47,863 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:47,864 com.yaof.service.impl.UserServiceImpl [qtp1178270318-23] (UserServiceImpl.java:52) INFO  --> service - isAccountExist query end
+2020-12-28 16:51:50,412 com.yaof.interceptor.WebAppConfig [qtp1178270318-41] (WebAppConfig.java:54) INFO  --> /rca/getAccount============================================
+2020-12-28 16:51:50,413 com.yaof.interceptor.WebAppConfig [qtp1178270318-41] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:51:50,419 com.yaof.controller.UserController [qtp1178270318-23] (UserController.java:56) INFO  --> 请求参数:{"account":"test","id":0,"password":"123456"}
+2020-12-28 16:51:51,420 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/login
+2020-12-28 16:51:51,420 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:51,420 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? and password = ? 
+2020-12-28 16:51:51,421 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: test(String), 123456(String)
+2020-12-28 16:51:51,422 com.yaof.mapper.UserMapper.getUserByAccountAndPassword [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:51:51,422 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:51:51,428 com.yaof.interceptor.WebAppConfig [qtp1178270318-41] (WebAppConfig.java:54) INFO  --> /rca/queryAccountByPower============================================
+2020-12-28 16:51:51,428 com.yaof.interceptor.WebAppConfig [qtp1178270318-41] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:51:51,429 com.yaof.service.impl.UserServiceImpl [qtp1178270318-41] (UserServiceImpl.java:104) INFO  --> ---------
+2020-12-28 16:51:51,430 com.yaof.point.TransactionDemo [qtp1178270318-41] (TransactionDemo.java:29) INFO  --> now the url is:/rca/queryAccountByPower
+2020-12-28 16:51:51,430 com.yaof.point.TransactionDemo [qtp1178270318-41] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:51:51,430 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-41] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, password, age, name, power, birthdate, sex, addr, phone, email from rca_user where power = ? 
+2020-12-28 16:51:51,431 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-41] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 9(String)
+2020-12-28 16:51:51,433 com.yaof.mapper.UserMapper.queryAccountByPower [qtp1178270318-41] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 7
+2020-12-28 16:51:51,434 com.yaof.point.TransactionDemo [qtp1178270318-41] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:52:02,979 com.yaof.controller.UserController [qtp1178270318-38] (UserController.java:108) INFO  --> 检查此账号是否已经被注册请求参数:yaofang
+2020-12-28 16:52:02,980 com.yaof.service.impl.UserServiceImpl [qtp1178270318-38] (UserServiceImpl.java:47) INFO  --> service - isAccountExist query begin
+2020-12-28 16:52:02,980 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:52:02,981 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:52:02,981 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:52:02,982 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:52:02,984 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:52:02,984 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:52:02,985 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:52:02,985 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:52:02,986 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:52:02,987 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:52:02,988 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:52:02,989 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:52:02,989 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:52:02,990 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:52:02,991 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:52:02,993 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:52:02,996 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:52:02,997 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:52:02,997 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:29) INFO  --> now the url is:/rca/checkAccount
+2020-12-28 16:52:02,997 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:52:02,998 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select id, account, age, name, power, birthdate, sex, addr, phone, email from rca_user where account = ? 
+2020-12-28 16:52:02,998 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: yaofang(String)
+2020-12-28 16:52:03,000 com.yaof.mapper.UserMapper.getUserByAccount [qtp1178270318-38] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 1
+2020-12-28 16:52:03,001 com.yaof.point.TransactionDemo [qtp1178270318-38] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:52:03,001 com.yaof.service.impl.UserServiceImpl [qtp1178270318-38] (UserServiceImpl.java:52) INFO  --> service - isAccountExist query end
+2020-12-28 16:53:42,974 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:54) INFO  --> /rca/user/queryAccountDetail============================================
+2020-12-28 16:53:42,974 com.yaof.interceptor.WebAppConfig [qtp1178270318-23] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:53:42,975 com.yaof.controller.AmmountController [qtp1178270318-23] (AmmountController.java:42) INFO  --> 根据用户Id查询账户信息，参数:{"cost":0.0,"income":0.0,"limit":0,"month":"12","sub":0.0,"type":"day","userId":"2","year":"2020"}
+2020-12-28 16:53:42,976 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:29) INFO  --> now the url is:/rca/user/queryAccountDetail
+2020-12-28 16:53:42,976 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:53:42,978 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: select year, month, day, sum(cost) cost, sum(income) income, (sum(income)-sum(cost)) sub from (select year(happen_date) year, month(happen_date) month, day(happen_date) day, cost, income from account_detail where user_id = ? and year(happen_date) = ? and month(happen_date) = ? ) a GROUP BY year,month,day order by year desc, month desc, day desc 
+2020-12-28 16:53:42,984 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 2(String), 2020(String), 12(String)
+2020-12-28 16:53:42,987 com.yaof.mapper.AmmountMapper.queryAccountDetail [qtp1178270318-23] (BaseJdbcLogger.java:159) DEBUG --> <==      Total: 0
+2020-12-28 16:53:42,988 com.yaof.point.TransactionDemo [qtp1178270318-23] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 16:53:42,988 com.yaof.controller.AmmountController [qtp1178270318-23] (AmmountController.java:44) INFO  --> 根据用户Id查询账户信息，返回结果:[]
+2020-12-28 16:53:46,948 com.yaof.interceptor.WebAppConfig [qtp1178270318-18] (WebAppConfig.java:54) INFO  --> /rca/logout============================================
+2020-12-28 16:53:46,949 com.yaof.interceptor.WebAppConfig [qtp1178270318-18] (WebAppConfig.java:55) INFO  --> 拦截账号：null
+2020-12-28 16:55:00,005 com.yaof.quartz.job.TestJob [pool-2-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：2
+2020-12-28 16:58:00,003 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:27) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-12-28 16:58:00,003 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:29) INFO  --> now the url is:
+2020-12-28 16:58:00,003 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 16:58:00,004 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-12-28 16:58:00,007 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160914588000110001(String), whoeluswmhtfq(String), 择淬毛茅(String), 07(String), M(String), 72(Integer), 9(Integer), 3670016(Integer), 33554432(Integer), 320(Integer), 610335201908179752(String), 哉盆盘(String), N(String), 0(String), 1(String)
+2020-12-28 16:58:00,010 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-12-28 16:58:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 17:00:00,003 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:27) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-12-28 17:00:00,003 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:29) INFO  --> now the url is:
+2020-12-28 17:00:00,003 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 17:00:00,004 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-12-28 17:00:00,007 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160914600000110002(String), jqkuasxoxbnnfpzyfu(String), 昭嘶惨叛(String), 06(String), M(String), 72(Integer), 12(Integer), 5767168(Integer), 41943040(Integer), 384(Integer), 360602198502158579(String), 眨型榜(String), Y(String), 2(String), 2(String)
+2020-12-28 17:00:00,010 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-12-28 17:00:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:39) INFO  --> point after...
+2020-12-28 17:00:00,012 com.yaof.quartz.job.TestJob [pool-2-thread-1] (TestJob.java:25) INFO  --> testJob calculate the count is：3
+2020-12-28 17:02:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:27) ERROR --> No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+2020-12-28 17:02:00,010 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:29) INFO  --> now the url is:
+2020-12-28 17:02:00,011 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:35) INFO  --> point before...
+2020-12-28 17:02:00,014 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==>  Preparing: insert into index_test ( id, account, name, sole_type, sole_genner, sole_grade, sole_appearance_type, sole_gold_num, sole_silver_num, sole_monny_num, user_id, user_name, is_adult, user_vip_type, machine_type ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-12-28 17:02:00,019 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> ==> Parameters: 160914612000510003(String), saaxomcupsj(String), 啼颁宝换(String), 06(String), M(String), 78(Integer), 14(Integer), 5767168(Integer), 41943040(Integer), 384(Integer), 520831197408023460(String), 祷鳞(String), Y(String), 4(String), 3(String)
+2020-12-28 17:02:00,023 com.yaof.mapper.GameRoleMapper.insertRoleInfo [executor-1] (BaseJdbcLogger.java:159) DEBUG --> <==    Updates: 1
+2020-12-28 17:02:00,023 com.yaof.point.TransactionDemo [executor-1] (TransactionDemo.java:39) INFO  --> point after...
