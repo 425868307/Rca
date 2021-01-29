@@ -6,9 +6,9 @@ import com.yaof.pojo.Student;
 
 public interface TestService {
 
-	public String getTestString();
+	String getTestString();
 	
-	public List<Object> getAllStudent();
+	List<Object> getAllStudent();
 	
-	public void insertStudent(Student student) throws Exception;
+	void insertStudent(Student student) throws Exception;
 }
